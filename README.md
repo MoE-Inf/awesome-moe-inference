@@ -182,7 +182,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 ## Hareware-Level Optimization
 [ICCAD'23] [Edge-MoE: Memory-Efficient Multi-Task Vision Transformer Architecture with Task-Level Sparsity via Mixture-of-Experts](https://ieeexplore.ieee.org/abstract/document/10323651) [[Code](https://github.com/sharc-lab/Edge-MoE)]
-
+[NeurIPS'2022] [M³ViT: Mixture-of-Experts Vision Transformer for Efficient Multi-task Learning with Model-Accelerator Co-design](https://proceedings.neurips.cc/paper_files/paper/2022/file/b653f34d576d1790481e3797cb740214-Paper-Conference.pdf) [[[Code](https://github.com/VITA-Group/M3ViT)]
 
 ## Contribute
 
