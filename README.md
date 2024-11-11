@@ -187,5 +187,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [NeurIPS'22] [M³ViT: Mixture-of-Experts Vision Transformer for Efficient Multi-task Learning with Model-Accelerator Co-design](https://proceedings.neurips.cc/paper_files/paper/2022/file/b653f34d576d1790481e3797cb740214-Paper-Conference.pdf) [[[Code](https://github.com/VITA-Group/M3ViT)]
 
+[Arxiv'24] [Duplex: A Device for Large Language Models with Mixture of Experts, Grouped Query Attention, and Continuous Batching](https://arxiv.org/pdf/2409.01141)
+
 ## Contribute
 
