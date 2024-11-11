@@ -143,6 +143,8 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [Arxiv'21] [FastMoE: A Fast Mixture-of-Expert Training System](https://arxiv.org/abs/2103.13262) [[Code](https://github.com/laekov/fastmoe)]
 
+[KDD'23] [COMET: Learning Cardinality Constrained Mixture of Experts
+with Trees and Local Search](https://dl.acm.org/doi/pdf/10.1145/3580305.3599278)
 
 ### Expert Offloading
 
