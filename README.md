@@ -66,6 +66,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 
 #### Low Rank Decomposition
+[Arxiv'24][MoE-I2: Compressing Mixture of Experts Models through Inter-Expert Pruning and Intra-Expert Low-Rank Decomposition](https://arxiv.org/abs/2411.01016)[[Code](https://github.com/xiaochengsky/MoEI-2)]
 
 ## Algorithm-Level Optimization
 
