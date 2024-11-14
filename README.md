@@ -199,5 +199,8 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 [DAC'24] [MoNDE: Mixture of Near-Data Experts for Large-Scale Sparse Models](https://dl.acm.org/doi/pdf/10.1145/3649329.3655951)
 
 [DAC'24] [FLAME: Fully Leveraging MoE Sparsity for Transformer on FPGA](https://dl.acm.org/doi/pdf/10.1145/3649329.3656507)
+
+[ISSCC’24] [Space-Mate: A 303.5mW Real-Time Sparse Mixture-of-Experts-Based
+NeRF-SLAM Processor for Mobile Spatial Computing](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10454487)
 ## Contribute
 
