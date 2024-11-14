@@ -150,6 +150,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 [Arxiv'21] [FastMoE: A Fast Mixture-of-Expert Training System](https://arxiv.org/abs/2103.13262) [[Code](https://github.com/laekov/fastmoe)]
 
 [KDD'23] [COMET: Learning Cardinality Constrained Mixture of Experts with Trees and Local Search](https://dl.acm.org/doi/pdf/10.1145/3580305.3599278)
+[TPDS'24] [MoESys: A Distributed and Efficient Mixture-of-Experts Training and Inference System for Internet Services](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10528887)
 
 ### Expert Offloading
 
@@ -189,11 +190,14 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [Arxiv'24] [Shortcut-connected Expert Parallelism for Accelerating Mixture-of-Experts](https://arxiv.org/abs/2404.05019)
 ## Hareware-Level Optimization
+[NeurIPS'22] [M³ViT: Mixture-of-Experts Vision Transformer for Efficient Multi-task Learning with Model-Accelerator Co-design](https://proceedings.neurips.cc/paper_files/paper/2022/file/b653f34d576d1790481e3797cb740214-Paper-Conference.pdf) [[Code](https://github.com/VITA-Group/M3ViT)]
+
 [ICCAD'23] [Edge-MoE: Memory-Efficient Multi-Task Vision Transformer Architecture with Task-Level Sparsity via Mixture-of-Experts](https://ieeexplore.ieee.org/abstract/document/10323651) [[Code](https://github.com/sharc-lab/Edge-MoE)]
 
-[NeurIPS'22] [M³ViT: Mixture-of-Experts Vision Transformer for Efficient Multi-task Learning with Model-Accelerator Co-design](https://proceedings.neurips.cc/paper_files/paper/2022/file/b653f34d576d1790481e3797cb740214-Paper-Conference.pdf) [[[Code](https://github.com/VITA-Group/M3ViT)]
+[MICRO'24] [Duplex: A Device for Large Language Models with Mixture of Experts, Grouped Query Attention, and Continuous Batching](https://arxiv.org/pdf/2409.01141)
 
-[Arxiv'24] [Duplex: A Device for Large Language Models with Mixture of Experts, Grouped Query Attention, and Continuous Batching](https://arxiv.org/pdf/2409.01141)
+[DAC'24] [MoNDE: Mixture of Near-Data Experts for Large-Scale Sparse Models](https://dl.acm.org/doi/pdf/10.1145/3649329.3655951)
 
+[DAC'24] [FLAME: Fully Leveraging MoE Sparsity for Transformer on FPGA](https://dl.acm.org/doi/pdf/10.1145/3649329.3656507)
 ## Contribute
 
