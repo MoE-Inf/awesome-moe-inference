@@ -43,6 +43,9 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 
 #### MoE Module
+
+[Arxiv'24] [MoELoRA: Contrastive Learning Guided Mixture of Experts on Parameter-Efficient Fine-Tuning for Large Language Models](https://arxiv.org/abs/2402.12851)
+
 [Arxiv'23] [Pre-gated MoE: An Algorithm-System Co-Design for Fast and Scalable Mixture-of-Expert Inference](https://arxiv.org/abs/2308.12066) [[Code](https://github.com/ranggihwang/Pregated_MoE)]
 
 
