@@ -30,7 +30,17 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 ### Efficient Architecture Design
 
 #### Attention Module
+
+[Arxiv'24] [Dense Training, Sparse Inference: Rethinking Training of Mixture-of-Experts Language Models](https://arxiv.org/abs/2404.05567)
+
+[Arxiv'24] [JetMoE: Reaching Llama2 Performance with 0.1M Dollars](https://arxiv.org/abs/2404.07413)[[Code](https://github.com/myshell-ai/JetMoE)]
+
+[Arxiv'23] [ModuleFormer: Modularity Emerges from Mixture-of-Experts](https://arxiv.org/abs/2306.04640)
+
+[EMNLP'22] [Mixture of Attention Heads: Selecting Attention Heads Per Token](https://arxiv.org/abs/2210.05144)
+
 [TMM'21] [Enhancing Mixture-of-Experts by Leveraging Attention for Fine-Grained Recognition](https://ieeexplore.ieee.org/abstract/document/9565360)[[Code](https://github.com/lbzhang/Enhanced-Expert-FGVC-Pytorch.git )]
+
 
 #### MoE Module
 [Arxiv'23] [Pre-gated MoE: An Algorithm-System Co-Design for Fast and Scalable Mixture-of-Expert Inference](https://arxiv.org/abs/2308.12066) [[Code](https://github.com/ranggihwang/Pregated_MoE)]
