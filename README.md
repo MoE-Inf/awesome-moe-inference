@@ -260,7 +260,6 @@ NeRF-SLAM Processor for Mobile Spatial Computing](https://ieeexplore.ieee.org/st
 21.	Retraining-Free Merging of Sparse Mixture-of-Experts via Hierarchical Clustering
 22.	Merging Experts into One: Improving Computational Efficiency of Mixture of Experts
 
-![image](https://github.com/user-attachments/assets/fb12a187-7096-4b36-99d2-066c5179f4c4)
 
 
 
