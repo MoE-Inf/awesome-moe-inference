@@ -100,7 +100,11 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [Arxiv'23] [Adaptive Gating in Mixture-of-Experts based Language Models](https://arxiv.org/abs/2310.07188)
 
+### Merge Expert
 
+XFT: Unlocking the Power of Code Instruction Tuning by Simply Merging Upcycled Mixture-of-Experts
+Retraining-Free Merging of Sparse Mixture-of-Experts via Hierarchical Clustering
+Merging Experts into One: Improving Computational Efficiency of Mixture of Experts
 
 ### Speculative Decoding
 
@@ -256,9 +260,7 @@ NeRF-SLAM Processor for Mobile Spatial Computing](https://ieeexplore.ieee.org/st
 17.	Knowledge Distillation for Mixture of Experts Models in Speech Recognition
 18.	Demystifying the Compression of Mixture-of-Experts Through a Unified Framework
 19.	A Provably Effective Method for Pruning Experts in Fine-tuned Sparse Mixture-of-Experts
-20.	XFT: Unlocking the Power of Code Instruction Tuning by Simply Merging Upcycled Mixture-of-Experts
-21.	Retraining-Free Merging of Sparse Mixture-of-Experts via Hierarchical Clustering
-22.	Merging Experts into One: Improving Computational Efficiency of Mixture of Experts
+
 
 
 
