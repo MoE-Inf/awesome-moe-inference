@@ -102,9 +102,19 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 ### Merge Expert
 
-XFT: Unlocking the Power of Code Instruction Tuning by Simply Merging Upcycled Mixture-of-Experts
-Retraining-Free Merging of Sparse Mixture-of-Experts via Hierarchical Clustering
-Merging Experts into One: Improving Computational Efficiency of Mixture of Experts
+[ACL'24] [XFT: Unlocking the Power of Code Instruction Tuning by Simply Merging Upcycled Mixture-of-Experts](https://aclanthology.org/2024.acl-long.699.pdf)
+
+[Arxiv'24] [Retraining-Free Merging of Sparse Mixture-of-Experts via Hierarchical Clustering](https://arxiv.org/pdf/2410.08589)
+
+[EMNLP'23] [Merging Experts into One: Improving Computational Efficiency of Mixture of Experts](https://aclanthology.org/2023.emnlp-main.907.pdf)
+
+[Arxiv'24] [Branch-Train-MiX:Mixing Expert LLMs into a Mixture-of-Experts LLM](https://arxiv.org/pdf/2403.07816)
+
+[Arxiv'22] [Branch-Train-Merge: Embarrassingly Parallel Training of Expert Language Models](https://arxiv.org/pdf/2208.03306)
+
+[ICLR'24] [Fusing Models with Complementary Expertise](https://openreview.net/pdf?id=PhMrGCMIRL)
+
+### Sparse to Dense
 
 ### Speculative Decoding
 
