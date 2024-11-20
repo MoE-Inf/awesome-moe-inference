@@ -117,6 +117,11 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [Arxiv'24] [Optimizing Mixture-of-Experts Inference Time Combining Model Deployment and Communication Scheduling](https://arxiv.org/abs/2410.17043)
 
+
+[Arxiv'24] [WDMoE: Wireless Distributed Large Language Models with Mixture of Experts](https://arxiv.org/abs/2405.03131)
+
+[Arxiv'23] [Towards MoE Deployment: Mitigating Inefficiencies in Mixture-of-Expert (MoE) Inference](https://arxiv.org/abs/2303.06182)
+
 #### Inference and Training
 
 
@@ -152,6 +157,9 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [MLSys'23] [Tutel: Adaptive Mixture-of-Experts at Scale](https://arxiv.org/abs/2206.03382) [[Code](https://github.com/microsoft/tutel)]
 
+
+
+
 [NeurIPS'22] [TA-MoE: Topology-Aware Large Scale Mixture-of-Expert Training](https://arxiv.org/abs/2302.09915) [[Code](https://github.com/chen-chang/ta-moe)]
 
 
@@ -174,6 +182,8 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 ### Expert Offloading
 
+[Arxiv'24] [MoE-Lightning: High-Throughput MoE Inference on Memory-constrained GPUs](https://arxiv.org/abs/2411.11217)
+
 [Arxiv'24] [HOBBIT: A Mixed Precision Expert Offloading System for Fast MoE Inference](https://arxiv.org/abs/2411.01433)
 
 [Arxiv'24] [ExpertFlow: Optimized Expert Activation and Token Allocation for Efficient Mixture-of-Experts Inference](https://arxiv.org/abs/2410.17954)
@@ -186,7 +196,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [Arxiv'24] [Fiddler: CPU-GPU Orchestration for Fast Inference of Mixture-of-Experts Models](https://arxiv.org/abs/2402.07033) [[Code](https://github.com/efeslab/fiddler)]
 
-[Arxiv'24] [WDMoE: Wireless Distributed Large Language Models with Mixture of Experts](https://arxiv.org/abs/2405.03131)
+
 
 [Electronics'24] [Efficient Inference Offloading for Mixture-of-Experts Large Language Models in Internet of Medical Things](https://www.mdpi.com/2079-9292/13/11/2077)
 
