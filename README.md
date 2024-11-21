@@ -106,8 +106,6 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 [Arxiv'23] [Towards MoE Deployment: Mitigating Inefficiencies in Mixture-of-Expert (MoE) Inference](https://arxiv.org/abs/2303.06182)
 ### Merge Expert
 
-[ACL'24] [XFT: Unlocking the Power of Code Instruction Tuning by Simply Merging Upcycled Mixture-of-Experts](https://aclanthology.org/2024.acl-long.699.pdf)
-
 [Arxiv'24] [Retraining-Free Merging of Sparse Mixture-of-Experts via Hierarchical Clustering](https://arxiv.org/pdf/2410.08589)
 
 [EMNLP'23] [Merging Experts into One: Improving Computational Efficiency of Mixture of Experts](https://aclanthology.org/2023.emnlp-main.907.pdf)
@@ -119,6 +117,8 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 [ICLR'24] [Fusing Models with Complementary Expertise](https://openreview.net/pdf?id=PhMrGCMIRL)
 
 ### Sparse to Dense
+
+[ACL'24] [XFT: Unlocking the Power of Code Instruction Tuning by Simply Merging Upcycled Mixture-of-Experts](https://aclanthology.org/2024.acl-long.699.pdf)
 
 ### Speculative Decoding
 
