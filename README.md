@@ -100,6 +100,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [Arxiv'23] [Adaptive Gating in Mixture-of-Experts based Language Models](https://arxiv.org/abs/2310.07188)
 
+[Arxiv'23] [Towards MoE Deployment: Mitigating Inefficiencies in Mixture-of-Expert (MoE) Inference](https://arxiv.org/abs/2303.06182)
 
 
 ### Speculative Decoding
@@ -157,7 +158,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [MLSys'23] [Tutel: Adaptive Mixture-of-Experts at Scale](https://arxiv.org/abs/2206.03382) [[Code](https://github.com/microsoft/tutel)]
 
-
+[OSDI'23] [Optimizing Dynamic Neural Networks with Brainstorm](https://www.usenix.org/conference/osdi23/presentation/cui) [[Code](https://github.com/Raphael-Hao/brainstorm)]
 
 
 [NeurIPS'22] [TA-MoE: Topology-Aware Large Scale Mixture-of-Expert Training](https://arxiv.org/abs/2302.09915) [[Code](https://github.com/chen-chang/ta-moe)]
@@ -181,6 +182,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 [Arxiv'20] [GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding](https://arxiv.org/abs/2006.16668)
 
 ### Expert Offloading
+[Arxiv'24] [Read-ME: Refactorizing LLMs as Router-Decoupled Mixture of Experts with System Co-Design](https://arxiv.org/abs/2410.19123) [[Code](https://github.com/VITA-Group/READ-ME)]
 
 [Arxiv'24] [MoE-Lightning: High-Throughput MoE Inference on Memory-constrained GPUs](https://arxiv.org/abs/2411.11217)
 
@@ -203,6 +205,9 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 [ISCA'24] [Pre-gated MoE: An Algorithm-System Co-Design for Fast and Scalable Mixture-of-Expert Inference](https://arxiv.org/abs/2308.12066) [[Code](https://github.com/ranggihwang/Pregated_MoE)]
 
 
+[HPCA'24] [Enabling Large Dynamic Neural Network Training with Learning-based Memory Management](https://ieeexplore.ieee.org/document/10476398)
+
+
 [Arxiv'23] [Fast Inference of Mixture-of-Experts Language Models with Offloading](https://arxiv.org/abs/2312.17238) [[Code](https://github.com/dvmazur/mixtral-offloading)]
 
 [Arxiv'23] [Towards MoE Deployment: Mitigating Inefficiencies in Mixture-of-Expert (MoE) Inference](https://arxiv.org/abs/2303.06182)
@@ -214,12 +219,19 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 ### Load balancing/scheduling
 
+[Arxiv'24] [Lynx: Enabling Efficient MoE Inference through Dynamic Batch-Aware Expert Selection](https://arxiv.org/abs/2411.08982)
+
 [Arxiv'24] [Prediction Is All MoE Needs: Expert Load Distribution Goes from Fluctuating to Stabilizing](https://arxiv.org/abs/2404.16914)
 
 
 [Arxiv'24] [Shortcut-connected Expert Parallelism for Accelerating Mixture-of-Experts](https://arxiv.org/abs/2404.05019)
 
 [CLUSTER'23] [Prophet: Fine-grained Load Balancing for Parallel Training of Large-scale MoE Models](https://ieeexplore.ieee.org/abstract/document/10319949)
+
+
+
+
+
 ## Hareware-Level Optimization
 
 [MICRO'24] [Duplex: A Device for Large Language Models with Mixture of Experts, Grouped Query Attention, and Continuous Batching](https://arxiv.org/pdf/2409.01141)
@@ -228,8 +240,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [DAC'24] [FLAME: Fully Leveraging MoE Sparsity for Transformer on FPGA](https://dl.acm.org/doi/pdf/10.1145/3649329.3656507)
 
-[ISSCC’24] [Space-Mate: A 303.5mW Real-Time Sparse Mixture-of-Experts-Based
-NeRF-SLAM Processor for Mobile Spatial Computing](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10454487)
+[ISSCC’24] [Space-Mate: A 303.5mW Real-Time Sparse Mixture-of-Experts-Based NeRF-SLAM Processor for Mobile Spatial Computing](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10454487)
 
 [ICCAD'23] [Edge-MoE: Memory-Efficient Multi-Task Vision Transformer Architecture with Task-Level Sparsity via Mixture-of-Experts](https://ieeexplore.ieee.org/abstract/document/10323651) [[Code](https://github.com/sharc-lab/Edge-MoE)]
 
