@@ -48,6 +48,9 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [Arxiv'23] [Pre-gated MoE: An Algorithm-System Co-Design for Fast and Scalable Mixture-of-Expert Inference](https://arxiv.org/abs/2308.12066) [[Code](https://github.com/ranggihwang/Pregated_MoE)]
 
+[KDD'23] [COMET: Learning Cardinality Constrained Mixture of Experts with Trees and Local Search](https://dl.acm.org/doi/pdf/10.1145/3580305.3599278)
+
+
 
 ### Model Compression
 
@@ -164,7 +167,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 [ATC'23] [SmartMoE: Efficiently Training Sparsely-Activated Models through Combining Offline and Online Parallelization](https://www.usenix.org/conference/atc23/presentation/zhai) [[Code](https://github.com/zms1999/SmartMoE)]
 
 
-[KDD'23] [COMET: Learning Cardinality Constrained Mixture of Experts with Trees and Local Search](https://dl.acm.org/doi/pdf/10.1145/3580305.3599278)
+
 [TSC'24] [MoESys: A Distributed and Efficient Mixture-of-Experts Training and Inference System for Internet Services](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10528887)
 
 [SIGMOD'23] [FlexMoE: Scaling Large-scale Sparse Pre-trained Model Training via Dynamic Device Placement](https://arxiv.org/abs/2304.03946) [[Code](https://github.com/UNITES-Lab/flex-moe)]
@@ -265,17 +268,11 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 ## TODOs
 1.	Examining Post-Training Quantization for Mixture-of-Experts: A Benchmark 
 2.	LaCo: Large Language Model Pruning via Layer Collapse
-3.	Lynx: Enabling Efficient MoE Inference through Dynamic Batch-Aware Expert Selection
 4.	Revisiting SMoE Language Models by Evaluating Inefficiencies with Task Specific Expert Pruning
 5.	STUN: Structured-Then-Unstructured Pruning for Scalable MoE Pruning
-6.	Read-ME: Refactorizing LLMs as Router-Decoupled Mixture of Experts with System Co-Design
 7.	MoEsaic: Shared Mixture of Experts
 8.	Knowledge distillation for mixture of experts models in speech recognition
-9.	Serving MoE Models on Resource-constrained Edge Devices via Dynamic Expert Swapping
-10.	LiteMoE: Customizing On-device LLM Serving via Proxy Submodel Tuning
 11.	Who Says Elephants Can't Run: Bringing Large Scale MoE Models into Cloud Scale Production
-12.	Enabling Large Dynamic Neural Network Training with Learning-based Memory Management 
-13.	Toward Efficient Inference for Mixture of Experts
 14.	SEER-MoE: Sparse Expert Efficiency through Regularization for Mixture-of-Experts
 15.	SCoMoE: Efficient Mixtures of Experts with Structured Communication
 16.	Compressed MoE ASR Model Based on Knowledge Distillation and Quantization
