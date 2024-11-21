@@ -101,7 +101,21 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 [Arxiv'23] [Adaptive Gating in Mixture-of-Experts based Language Models](https://arxiv.org/abs/2310.07188)
 
 [Arxiv'23] [Towards MoE Deployment: Mitigating Inefficiencies in Mixture-of-Expert (MoE) Inference](https://arxiv.org/abs/2303.06182)
+### Merge Expert
 
+[ACL'24] [XFT: Unlocking the Power of Code Instruction Tuning by Simply Merging Upcycled Mixture-of-Experts](https://aclanthology.org/2024.acl-long.699.pdf)
+
+[Arxiv'24] [Retraining-Free Merging of Sparse Mixture-of-Experts via Hierarchical Clustering](https://arxiv.org/pdf/2410.08589)
+
+[EMNLP'23] [Merging Experts into One: Improving Computational Efficiency of Mixture of Experts](https://aclanthology.org/2023.emnlp-main.907.pdf)
+
+[Arxiv'24] [Branch-Train-MiX:Mixing Expert LLMs into a Mixture-of-Experts LLM](https://arxiv.org/pdf/2403.07816)
+
+[Arxiv'22] [Branch-Train-Merge: Embarrassingly Parallel Training of Expert Language Models](https://arxiv.org/pdf/2208.03306)
+
+[ICLR'24] [Fusing Models with Complementary Expertise](https://openreview.net/pdf?id=PhMrGCMIRL)
+
+### Sparse to Dense
 
 ### Speculative Decoding
 
@@ -224,6 +238,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 [Arxiv'24] [Prediction Is All MoE Needs: Expert Load Distribution Goes from Fluctuating to Stabilizing](https://arxiv.org/abs/2404.16914)
 
 
+
 [Arxiv'24] [Shortcut-connected Expert Parallelism for Accelerating Mixture-of-Experts](https://arxiv.org/abs/2404.05019)
 
 [CLUSTER'23] [Prophet: Fine-grained Load Balancing for Parallel Training of Large-scale MoE Models](https://ieeexplore.ieee.org/abstract/document/10319949)
@@ -246,6 +261,31 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 
 [NeurIPS'22] [M³ViT: Mixture-of-Experts Vision Transformer for Efficient Multi-task Learning with Model-Accelerator Co-design](https://proceedings.neurips.cc/paper_files/paper/2022/file/b653f34d576d1790481e3797cb740214-Paper-Conference.pdf) [[Code](https://github.com/VITA-Group/M3ViT)]
+
+## TODOs
+1.	Examining Post-Training Quantization for Mixture-of-Experts: A Benchmark 
+2.	LaCo: Large Language Model Pruning via Layer Collapse
+3.	Lynx: Enabling Efficient MoE Inference through Dynamic Batch-Aware Expert Selection
+4.	Revisiting SMoE Language Models by Evaluating Inefficiencies with Task Specific Expert Pruning
+5.	STUN: Structured-Then-Unstructured Pruning for Scalable MoE Pruning
+6.	Read-ME: Refactorizing LLMs as Router-Decoupled Mixture of Experts with System Co-Design
+7.	MoEsaic: Shared Mixture of Experts
+8.	Knowledge distillation for mixture of experts models in speech recognition
+9.	Serving MoE Models on Resource-constrained Edge Devices via Dynamic Expert Swapping
+10.	LiteMoE: Customizing On-device LLM Serving via Proxy Submodel Tuning
+11.	Who Says Elephants Can't Run: Bringing Large Scale MoE Models into Cloud Scale Production
+12.	Enabling Large Dynamic Neural Network Training with Learning-based Memory Management 
+13.	Toward Efficient Inference for Mixture of Experts
+14.	SEER-MoE: Sparse Expert Efficiency through Regularization for Mixture-of-Experts
+15.	SCoMoE: Efficient Mixtures of Experts with Structured Communication
+16.	Compressed MoE ASR Model Based on Knowledge Distillation and Quantization
+17.	Knowledge Distillation for Mixture of Experts Models in Speech Recognition
+18.	Demystifying the Compression of Mixture-of-Experts Through a Unified Framework
+19.	A Provably Effective Method for Pruning Experts in Fine-tuned Sparse Mixture-of-Experts
+
+
+
+
 
 ## Contribute
 
