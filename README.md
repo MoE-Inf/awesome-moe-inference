@@ -46,9 +46,15 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [Arxiv'24] [MoELoRA: Contrastive Learning Guided Mixture of Experts on Parameter-Efficient Fine-Tuning for Large Language Models](https://arxiv.org/abs/2402.12851)
 
+[Arxiv'24] [SEER-MoE: Sparse Expert Efficiency through Regularization for Mixture-of-Experts](https://arxiv.org/abs/2404.05089)
+
 [Arxiv'23] [Pre-gated MoE: An Algorithm-System Co-Design for Fast and Scalable Mixture-of-Expert Inference](https://arxiv.org/abs/2308.12066) [[Code](https://github.com/ranggihwang/Pregated_MoE)]
 
+[ICLR'23] [SCoMoE: Efficient Mixtures of Experts with Structured Communication](https://openreview.net/forum?id=s-c96mSU0u5)
+
 [KDD'23] [COMET: Learning Cardinality Constrained Mixture of Experts with Trees and Local Search](https://dl.acm.org/doi/pdf/10.1145/3580305.3599278)
+
+[EMNLP'22] [Who Says Elephants Can't Run: Bringing Large Scale MoE Models into Cloud Scale Production](https://arxiv.org/abs/2211.10017)
 
 
 
@@ -62,9 +68,21 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [Arxiv'24] [Efficient Expert Pruning for Sparse Mixture-of-Experts Language Models: Enhancing Performance and Reducing Inference Costs](https://arxiv.org/abs/2407.00945) [[Code](https://github.com/imagination-research/EEP)] 
 
-[Arxiv'22] [Task-Specific Expert Pruning for Sparse Mixture-of-Experts](https://arxiv.org/abs/2206.00277)
+[EMNLP'24] [LaCo: Large Language Model Pruning via Layer Collapse](https://arxiv.org/abs/2402.11187) [[Code](https://github.com/yangyifei729/LaCo)]
 
 [Arxiv'24] [Not All Experts are Equal: Efficient Expert Pruning and Skipping for Mixture-of-Experts Large Language Models](https://arxiv.org/abs/2402.14800) [[Code](https://github.com/Lucky-Lance/Expert_Sparsity)] 
+
+[Arxiv'24] [Revisiting SMoE Language Models by Evaluating Inefficiencies with Task Specific Expert Pruning](https://arxiv.org/abs/2409.01483)
+
+[Arxiv'24] [STUN: Structured-Then-Unstructured Pruning for Scalable MoE Pruning](https://arxiv.org/abs/2409.06211)
+
+[Arxiv'24] [Demystifying the Compression of Mixture-of-Experts Through a Unified Framework](https://arxiv.org/abs/2406.02500) [[Code](https://github.com/DaizeDong/Unified-MoE-Compression)]
+
+[Arxiv'24] [A Provably Effective Method for Pruning Experts in Fine-tuned Sparse Mixture-of-Experts](https://arxiv.org/abs/2405.16646)
+
+[Arxiv'22] [Task-Specific Expert Pruning for Sparse Mixture-of-Experts](https://arxiv.org/abs/2206.00277)
+
+
 
 #### Quantization
 [Arxiv'24] [MC-MoE: Mixture Compressor for Mixture-of-Experts LLMs Gains More](https://arxiv.org/abs/2410.06270) [[Code](https://github.com/Aaronhuang-778/MC-MoE)] 
@@ -75,12 +93,23 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [Arxiv'24] [Mixture of Experts with Mixture of Precisions for Tuning Quality of Service](https://arxiv.org/abs/2407.14417)
 
+[Arxiv'24] [Examining Post-Training Quantization for Mixture-of-Experts: A Benchmark](https://arxiv.org/abs/2406.08155) [[Code](https://github.com/UNITES-Lab/moe-quantization)]
+
+[EMNLP'24] [LaCo: Large Language Model Pruning via Layer Collapse](https://arxiv.org/abs/2402.11187) [[Code](https://github.com/yangyifei729/LaCo)]
+
+[INTERSPEECH'23] [Compressed MoE ASR Model Based on Knowledge Distillation and Quantization](https://www.isca-archive.org/interspeech_2023/yuan23c_interspeech.pdf)
+
+
 #### Knowledge Distillation
 
 [Arxiv'24] [LaDiMo: Layer-wise Distillation Inspired MoEfier](https://arxiv.org/abs/2408.04278)
 
+[INTERSPEECH'23] [Compressed MoE ASR Model Based on Knowledge Distillation and Quantization](https://www.isca-archive.org/interspeech_2023/yuan23c_interspeech.pdf)
+
 
 [ICML'22] [DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale](https://proceedings.mlr.press/v162/rajbhandari22a.html) [[Code](https://github.com/microsoft/DeepSpeed)]   
+
+[MICROSOFT'22] [Knowledge distillation for mixture of experts models in speech recognition](https://www.microsoft.com/en-us/research/uploads/prod/2022/05/MainzSpeech_Interspeech2022_KD_MoE_Network.pdf)
 
 
 
