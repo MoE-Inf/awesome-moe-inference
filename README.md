@@ -146,9 +146,12 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 [ASPLOS'25] [FSMoE: A Flexible and Scalable Training System for Sparse Mixture-of-Experts Models](https://shaohuais.github.io/publications/index.html)
 
 
+
 [Arxiv'24] [HEXA-MoE: Efficient and Heterogeneous-aware MoE Acceleration with ZERO Computation Redundancy](https://arxiv.org/abs/2411.01288) [[Code](https://github.com/UNITES-Lab/HEXA-MoE)]
 
 [Arxiv'24] [LocMoE: A Low-Overhead MoE for Large Language Model Training](https://arxiv.org/abs/2401.13920)
+
+[Arxiv'24] [Lazarus: Resilient and Elastic Training of Mixture-of-Experts Models with Adaptive Expert Placement](https://arxiv.org/abs/2407.04656)
 
 [TPDS'24] [MPMoE: Memory Efficient MoE for Pre-Trained Models With Adaptive Pipeline Parallelism](https://ieeexplore.ieee.org/abstract/document/10494556)
 
@@ -178,28 +181,42 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 [OSDI'23] [Optimizing Dynamic Neural Networks with Brainstorm](https://www.usenix.org/conference/osdi23/presentation/cui) [[Code](https://github.com/Raphael-Hao/brainstorm)]
 
 
+[ICS'23] [A Hybrid Tensor-Expert-Data Parallelism Approach to Optimize Mixture-of-Experts Training](https://arxiv.org/abs/2303.06318)
+
+
+[OSDI'22] [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning](https://www.usenix.org/conference/osdi22/presentation/zheng-lianmin) [[Code](https://github.com/alpa-projects/alpa)]
+
 [NeurIPS'22] [TA-MoE: Topology-Aware Large Scale Mixture-of-Expert Training](https://arxiv.org/abs/2302.09915) [[Code](https://github.com/chen-chang/ta-moe)]
 
+
+[NeurIPS'22] [Mixture-of-Experts with Expert Choice Routing](https://proceedings.neurips.cc/paper_files/paper/2022/file/2f00ecd787b432c1d36f3de9800728eb-Paper-Conference.pdf)
 
 [PPoPP'22] [FasterMoE: modeling and optimizing training of large-scale dynamic pre-trained models](https://dl.acm.org/doi/10.1145/3503221.3508418) [[Code](https://github.com/thu-pacman/FasterMoE)]
 
 
+[PPoPP'22] [BaGuaLu: targeting brain scale pretrained models with over 37 million cores](https://dl.acm.org/doi/10.1145/3503221.3508417)
 
+[SoCC'22] [Accelerating large-scale distributed neural network training with SPMD parallelism](https://dl.acm.org/doi/10.1145/3542929.3563487)
 
+[PMLR'22] [Gating Dropout: Communication-efficient Regularization for Sparsely Activated Transformers](https://proceedings.mlr.press/v162/liu22g/liu22g.pdf)
 
-
+[ICML'22] [DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale](https://proceedings.mlr.press/v162/rajbhandari22a.html) [[Code](https://github.com/microsoft/DeepSpeed)]   
 
 [Arxiv'22] [HetuMoE: An Efficient Trillion-scale Mixture-of-Expert Distributed Training System](https://arxiv.org/abs/2203.14685) [[Code](https://github.com/PKU-DAIR/Hetu)]
 
 
 [Arxiv'21] [FastMoE: A Fast Mixture-of-Expert Training System](https://arxiv.org/abs/2103.13262) [[Code](https://github.com/laekov/fastmoe)]
 
-
+[PMLR'21] [BASE Layers: Simplifying Training of Large, Sparse Models](https://proceedings.mlr.press/v139/lewis21a/lewis21a.pdf) [[Code](https://github.com/pytorch/fairseq/)]
 
 [Arxiv'20] [GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding](https://arxiv.org/abs/2006.16668)
 
 ### Expert Offloading
 [Arxiv'24] [Read-ME: Refactorizing LLMs as Router-Decoupled Mixture of Experts with System Co-Design](https://arxiv.org/abs/2410.19123) [[Code](https://github.com/VITA-Group/READ-ME)]
+
+
+[Arxiv'24] [Shortcut-connected Expert Parallelism for Accelerating Mixture-of-Experts](https://arxiv.org/abs/2404.05019)
+
 
 [Arxiv'24] [MoE-Lightning: High-Throughput MoE Inference on Memory-constrained GPUs](https://arxiv.org/abs/2411.11217)
 
