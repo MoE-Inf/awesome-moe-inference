@@ -127,7 +127,11 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 ### Expert Parallel
 
-#### Inference Only
+
+
+
+[ASPLOS'25] [FSMoE: A Flexible and Scalable Training System for Sparse Mixture-of-Experts Models](https://shaohuais.github.io/publications/index.html)
+
 [Arxiv'24] [EPS-MoE: Expert Pipeline Scheduler for Cost-Efficient MoE Inference](https://arxiv.org/abs/2410.12247)
 
 [IPDPS'24] [Exploiting Inter-Layer Expert Affinity for Accelerating Mixture-of-Experts Model Inference](https://arxiv.org/abs/2401.08383)
@@ -138,14 +142,16 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [Arxiv'24] [WDMoE: Wireless Distributed Large Language Models with Mixture of Experts](https://arxiv.org/abs/2405.03131)
 
-[Arxiv'23] [Towards MoE Deployment: Mitigating Inefficiencies in Mixture-of-Expert (MoE) Inference](https://arxiv.org/abs/2303.06182)
+[Arxiv'24] [Lynx: Enabling Efficient MoE Inference through Dynamic Batch-Aware Expert Selection](https://arxiv.org/abs/2411.08982)
 
-#### Inference and Training
-
-
-[ASPLOS'25] [FSMoE: A Flexible and Scalable Training System for Sparse Mixture-of-Experts Models](https://shaohuais.github.io/publications/index.html)
+[Arxiv'24] [Prediction Is All MoE Needs: Expert Load Distribution Goes from Fluctuating to Stabilizing](https://arxiv.org/abs/2404.16914)
 
 
+
+[Arxiv'24] [Shortcut-connected Expert Parallelism for Accelerating Mixture-of-Experts](https://arxiv.org/abs/2404.05019)
+
+
+[TSC'24] [MoESys: A Distributed and Efficient Mixture-of-Experts Training and Inference System for Internet Services](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10528887)
 
 [Arxiv'24] [HEXA-MoE: Efficient and Heterogeneous-aware MoE Acceleration with ZERO Computation Redundancy](https://arxiv.org/abs/2411.01288) [[Code](https://github.com/UNITES-Lab/HEXA-MoE)]
 
@@ -169,9 +175,9 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [ATC'23] [SmartMoE: Efficiently Training Sparsely-Activated Models through Combining Offline and Online Parallelization](https://www.usenix.org/conference/atc23/presentation/zhai) [[Code](https://github.com/zms1999/SmartMoE)]
 
+[Arxiv'23] [Towards MoE Deployment: Mitigating Inefficiencies in Mixture-of-Expert (MoE) Inference](https://arxiv.org/abs/2303.06182)
 
 
-[TSC'24] [MoESys: A Distributed and Efficient Mixture-of-Experts Training and Inference System for Internet Services](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10528887)
 
 [SIGMOD'23] [FlexMoE: Scaling Large-scale Sparse Pre-trained Model Training via Dynamic Device Placement](https://arxiv.org/abs/2304.03946) [[Code](https://github.com/UNITES-Lab/flex-moe)]
 
@@ -183,6 +189,8 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [ICS'23] [A Hybrid Tensor-Expert-Data Parallelism Approach to Optimize Mixture-of-Experts Training](https://arxiv.org/abs/2303.06318)
 
+
+[CLUSTER'23] [Prophet: Fine-grained Load Balancing for Parallel Training of Large-scale MoE Models](https://ieeexplore.ieee.org/abstract/document/10319949)
 
 [OSDI'22] [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning](https://www.usenix.org/conference/osdi22/presentation/zheng-lianmin) [[Code](https://github.com/alpa-projects/alpa)]
 
@@ -210,6 +218,11 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 [PMLR'21] [BASE Layers: Simplifying Training of Large, Sparse Models](https://proceedings.mlr.press/v139/lewis21a/lewis21a.pdf) [[Code](https://github.com/pytorch/fairseq/)]
 
 [Arxiv'20] [GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding](https://arxiv.org/abs/2006.16668)
+
+
+
+
+
 
 ### Expert Offloading
 [Arxiv'24] [Read-ME: Refactorizing LLMs as Router-Decoupled Mixture of Experts with System Co-Design](https://arxiv.org/abs/2410.19123) [[Code](https://github.com/VITA-Group/READ-ME)]
@@ -249,19 +262,6 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 [Arxiv'23] [EdgeMoE: Fast On-Device Inference of MoE-based Large Language Models](https://arxiv.org/abs/2308.14352)
 
 [Arxiv'23] [SwapMoE: Serving Off-the-shelf MoE-based Large Language Models with Tunable Memory Budget](https://arxiv.org/abs/2308.15030)
-
-
-### Load balancing/scheduling
-
-[Arxiv'24] [Lynx: Enabling Efficient MoE Inference through Dynamic Batch-Aware Expert Selection](https://arxiv.org/abs/2411.08982)
-
-[Arxiv'24] [Prediction Is All MoE Needs: Expert Load Distribution Goes from Fluctuating to Stabilizing](https://arxiv.org/abs/2404.16914)
-
-
-
-[Arxiv'24] [Shortcut-connected Expert Parallelism for Accelerating Mixture-of-Experts](https://arxiv.org/abs/2404.05019)
-
-[CLUSTER'23] [Prophet: Fine-grained Load Balancing for Parallel Training of Large-scale MoE Models](https://ieeexplore.ieee.org/abstract/document/10319949)
 
 
 
