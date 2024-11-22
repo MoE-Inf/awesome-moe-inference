@@ -295,19 +295,9 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 [NeurIPS'22] [M³ViT: Mixture-of-Experts Vision Transformer for Efficient Multi-task Learning with Model-Accelerator Co-design](https://proceedings.neurips.cc/paper_files/paper/2022/file/b653f34d576d1790481e3797cb740214-Paper-Conference.pdf) [[Code](https://github.com/VITA-Group/M3ViT)]
 
 ## TODOs
-1.	Examining Post-Training Quantization for Mixture-of-Experts: A Benchmark 
-2.	LaCo: Large Language Model Pruning via Layer Collapse
-4.	Revisiting SMoE Language Models by Evaluating Inefficiencies with Task Specific Expert Pruning
-5.	STUN: Structured-Then-Unstructured Pruning for Scalable MoE Pruning
+
 7.	MoEsaic: Shared Mixture of Experts
-8.	Knowledge distillation for mixture of experts models in speech recognition
-11.	Who Says Elephants Can't Run: Bringing Large Scale MoE Models into Cloud Scale Production
-14.	SEER-MoE: Sparse Expert Efficiency through Regularization for Mixture-of-Experts
-15.	SCoMoE: Efficient Mixtures of Experts with Structured Communication
-16.	Compressed MoE ASR Model Based on Knowledge Distillation and Quantization
-17.	Knowledge Distillation for Mixture of Experts Models in Speech Recognition
-18.	Demystifying the Compression of Mixture-of-Experts Through a Unified Framework
-19.	A Provably Effective Method for Pruning Experts in Fine-tuned Sparse Mixture-of-Experts
+
 
 
 
