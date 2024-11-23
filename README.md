@@ -21,8 +21,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 
 ## SOTA MoE LLMs
-
-
+mixtral, qwen, hunyuan, phi, ...
 
 
 ## Model-Level Optimizations
@@ -102,6 +101,10 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 #### Knowledge Distillation
 
+[] [One Student Knows All Experts Know: From Sparse to Dens]
+
+[] [LLaVA-MoD: Making LLaVA Tiny via MoE-Knowledge Distillation]
+
 [Arxiv'24] [LaDiMo: Layer-wise Distillation Inspired MoEfier](https://arxiv.org/abs/2408.04278)
 
 [INTERSPEECH'23] [Compressed MoE ASR Model Based on Knowledge Distillation and Quantization](https://www.isca-archive.org/interspeech_2023/yuan23c_interspeech.pdf)
@@ -117,7 +120,6 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 #### Low Rank Decomposition
 [Arxiv'24] [MoE-I2: Compressing Mixture of Experts Models through Inter-Expert Pruning and Intra-Expert Low-Rank Decomposition](https://arxiv.org/abs/2411.01016) [[Code](https://github.com/xiaochengsky/MoEI-2)]
 
-## Algorithm-Level Optimization
 
 ### Expert Skip/Adaptive Gating
 
@@ -149,14 +151,17 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [ACL'24] [XFT: Unlocking the Power of Code Instruction Tuning by Simply Merging Upcycled Mixture-of-Experts](https://aclanthology.org/2024.acl-long.699.pdf)
 
-### Speculative Decoding
+[] [Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity]
+
+[] [Efficient Large Scale Language Modeling with Mixtures of Experts]
+
 
 
 ## System-Level Optimization
 
 ### Expert Parallel
 
-
+[] [Toward Efficient Inference for Mixture of Experts]
 
 
 [ASPLOS'25] [FSMoE: A Flexible and Scalable Training System for Sparse Mixture-of-Experts Models](https://shaohuais.github.io/publications/index.html)
@@ -254,6 +259,8 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 
 ### Expert Offloading
+[] [ProMoE: Fast MoE-based LLM Serving using Proactive Caching]
+
 [Arxiv'24] [Read-ME: Refactorizing LLMs as Router-Decoupled Mixture of Experts with System Co-Design](https://arxiv.org/abs/2410.19123) [[Code](https://github.com/VITA-Group/READ-ME)]
 
 
@@ -262,7 +269,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [Arxiv'24] [MoE-Lightning: High-Throughput MoE Inference on Memory-constrained GPUs](https://arxiv.org/abs/2411.11217)
 
-[Arxiv'24] [HOBBIT: A Mixed Precision Expert Offloading System for Fast MoE Inference](https://arxiv.org/abs/2411.01433)
+[Arxiv'24] [HOBBIT: A Mixed Precision Expert Offloading System for Fast MoE Inference](https://arxiv.org/abs/2411.01433) [Quantization, Skip Expert]
 
 [Arxiv'24] [ExpertFlow: Optimized Expert Activation and Token Allocation for Efficient Mixture-of-Experts Inference](https://arxiv.org/abs/2410.17954)
 
@@ -293,7 +300,8 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 [Arxiv'23] [SwapMoE: Serving Off-the-shelf MoE-based Large Language Models with Tunable Memory Budget](https://arxiv.org/abs/2308.15030)
 
 
-
+### Others
+[] [MoEsaic: Shared Mixture of Experts]
 
 
 ## Hareware-Level Optimization
@@ -311,9 +319,6 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [NeurIPS'22] [M³ViT: Mixture-of-Experts Vision Transformer for Efficient Multi-task Learning with Model-Accelerator Co-design](https://proceedings.neurips.cc/paper_files/paper/2022/file/b653f34d576d1790481e3797cb740214-Paper-Conference.pdf) [[Code](https://github.com/VITA-Group/M3ViT)]
 
-## TODOs
-
-7.	MoEsaic: Shared Mixture of Experts
 
 
 
