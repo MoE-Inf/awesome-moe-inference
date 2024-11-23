@@ -23,13 +23,53 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 ## SOTA MoE LLMs
 
 
+[Arxiv'24] [Mixtral-8x7B](https://arxiv.org/abs/2401.04088) [[Code](https://huggingface.co/mistralai/Mixtral-8x7B-v0.1)]
 
+[Arxiv'24] [Mixtral-8x22B](https://arxiv.org/abs/2401.04088) [[Code](https://huggingface.co/mistralai/Mixtral-8x22B-v0.1)]
+
+
+[Arxiv'24] [DeepseekMoE](https://arxiv.org/abs/2401.06066) [[Code](https://huggingface.co/deepseek-ai/deepseek-moe-16b-base)]
+
+[Arxiv'24] [DeepSeek-V2](https://arxiv.org/abs/2405.04434) [[Code](https://huggingface.co/deepseek-ai/DeepSeek-V2)]
+
+
+[Arxiv'24] [PhiMoE](https://arxiv.org/abs/2404.14219) [[Code](https://huggingface.co/microsoft/Phi-3.5-MoE-instruct)]
+
+[Arxiv'24] [GRadient-INformed MoE](https://arxiv.org/abs/2409.12136) [[Code](https://huggingface.co/microsoft/GRIN-MoE)]
+
+
+[Arxiv'24] [Qwen2-57B-A14B](https://arxiv.org/abs/2407.10671) [[Code](https://huggingface.co/Qwen/Qwen2-57B-A14B)]
+
+[QwenBlog'24] [Qwen1.5-MoE](https://qwenlm.github.io/blog/qwen-moe/) [[Code](https://huggingface.co/Qwen/Qwen1.5-MoE-A2.7B)]
+
+
+[Arxiv'24] [Skywork-MoE](https://arxiv.org/abs/2406.06563) [[Code](https://huggingface.co/Skywork/Skywork-MoE-Base)]
+
+[Arxiv'24] [JetMoE: Reaching Llama2 Performance with 0.1M Dollars](https://arxiv.org/abs/2404.07413)[[Code](https://github.com/myshell-ai/JetMoE)]
+
+[Arxiv'24] [Yuan 2.0-M32](https://arxiv.org/abs/2405.17976) [[Code](https://huggingface.co/IEITYuan/Yuan2-M32-hf)]
+
+[MosaicResearchBlog'24] [DBRX](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm) [[Code](https://huggingface.co/databricks/dbrx-base)]
+
+[SnowflakeBlog'24] [Arctic](https://www.snowflake.com/en/blog/arctic-open-efficient-foundation-language-models-snowflake/) [[Code](https://huggingface.co/Snowflake/snowflake-arctic-base)]
+
+[XAIBlog'24] [Grok-1](https://x.ai/blog/grok-os) [[Code](https://github.com/xai-org/grok-1)]
+
+[Arxiv'24] [Jamba](https://arxiv.org/abs/2403.19887) [[Code](https://huggingface.co/ai21labs/Jamba-v0.1)]
+
+[Arxiv'24] [LLaMA-MoE](https://arxiv.org/abs/2406.16554) [[Code](https://github.com/pjlab-sys4nlp/llama-moe)]
+
+[Arxiv'22] [NLLB-MOE](https://arxiv.org/abs/2207.04672) [[Code](https://huggingface.co/facebook/nllb-moe-54b)]
+
+[ICCV'21] [Swin-MoE](https://openaccess.thecvf.com/content/ICCV2021/papers/Liu_Swin_Transformer_Hierarchical_Vision_Transformer_Using_Shifted_Windows_ICCV_2021_paper.pdf) [[Code](https://github.com/microsoft/Swin-Transformer)]
 
 ## Model-Level Optimizations
 
 ### Efficient Architecture Design
 
 #### Attention Module
+
+[Arxiv'24] [MoH: Multi-Head Attention as Mixture-of-Head Attention](https://arxiv.org/abs/2410.11842) [[Code](https://github.com/SkyworkAI/MoH)]
 
 [Arxiv'24] [Dense Training, Sparse Inference: Rethinking Training of Mixture-of-Experts Language Models](https://arxiv.org/abs/2404.05567)
 
@@ -43,6 +83,8 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 
 #### MoE Module
+
+[Arxiv'24] [MoE++: Accelerating Mixture-of-Experts Methods with Zero-Computation Experts](https://arxiv.org/abs/2410.07348) [[Code](https://github.com/SkyworkAI/MoE-plus-plus)]
 
 [Arxiv'24] [MoELoRA: Contrastive Learning Guided Mixture of Experts on Parameter-Efficient Fine-Tuning for Large Language Models](https://arxiv.org/abs/2402.12851)
 
@@ -161,6 +203,8 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [ASPLOS'25] [FSMoE: A Flexible and Scalable Training System for Sparse Mixture-of-Experts Models](https://shaohuais.github.io/publications/index.html)
 
+[OpenReview'24] [Toward Efficient Inference for Mixture of Experts](https://openreview.net/forum?id=stXtBqyTWX&noteId=p7ADDxdU8g)
+
 [Arxiv'24] [EPS-MoE: Expert Pipeline Scheduler for Cost-Efficient MoE Inference](https://arxiv.org/abs/2410.12247)
 
 [IPDPS'24] [Exploiting Inter-Layer Expert Affinity for Accelerating Mixture-of-Experts Model Inference](https://arxiv.org/abs/2401.08383)
@@ -175,6 +219,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [Arxiv'24] [Prediction Is All MoE Needs: Expert Load Distribution Goes from Fluctuating to Stabilizing](https://arxiv.org/abs/2404.16914)
 
+[Arxiv'24] [MoE++: Accelerating Mixture-of-Experts Methods with Zero-Computation Experts](https://arxiv.org/abs/2410.07348) [[Code](https://github.com/SkyworkAI/MoE-plus-plus)] [MoE Module Design]
 
 
 [Arxiv'24] [Shortcut-connected Expert Parallelism for Accelerating Mixture-of-Experts](https://arxiv.org/abs/2404.05019)
@@ -254,6 +299,10 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 
 ### Expert Offloading
+
+[Arxiv'24] [ProMoE: Fast MoE-based LLM Serving using Proactive Caching](https://arxiv.org/abs/2410.22134)
+
+
 [Arxiv'24] [Read-ME: Refactorizing LLMs as Router-Decoupled Mixture of Experts with System Co-Design](https://arxiv.org/abs/2410.19123) [[Code](https://github.com/VITA-Group/READ-ME)]
 
 
@@ -266,7 +315,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [Arxiv'24] [ExpertFlow: Optimized Expert Activation and Token Allocation for Efficient Mixture-of-Experts Inference](https://arxiv.org/abs/2410.17954)
 
-[Arxiv'24] [AdapMoE: Adaptive Sensitivity-based Expert Gating and Management for Efficient MoE Inference](https://arxiv.org/abs/2408.10284) [[Code](https://github.com/PKU-SEC-Lab/AdapMoE)]
+[Arxiv'24] [AdapMoE: Adaptive Sensitivity-based Expert Gating and Management for Efficient MoE Inference](https://arxiv.org/abs/2408.10284) [[Code](https://github.com/PKU-SEC-Lab/AdapMoE)] [Adaptive Gating]
 
 [MLSys'24] [SiDA: Sparsity-Inspired Data-Aware Serving for Efficient and Scalable Large Mixture-of-Experts Models](https://proceedings.mlsys.org/paper_files/paper/2024/hash/698cfaf72a208aef2e78bcac55b74328-Abstract-Conference.html) [[Code](https://github.com/timlee0212/SiDA-MoE)]
 
@@ -278,7 +327,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [Electronics'24] [Efficient Inference Offloading for Mixture-of-Experts Large Language Models in Internet of Medical Things](https://www.mdpi.com/2079-9292/13/11/2077)
 
-[ISCA'24] [Pre-gated MoE: An Algorithm-System Co-Design for Fast and Scalable Mixture-of-Expert Inference](https://arxiv.org/abs/2308.12066) [[Code](https://github.com/ranggihwang/Pregated_MoE)]
+[ISCA'24] [Pre-gated MoE: An Algorithm-System Co-Design for Fast and Scalable Mixture-of-Expert Inference](https://arxiv.org/abs/2308.12066) [[Code](https://github.com/ranggihwang/Pregated_MoE)] [MoE Module]
 
 
 [HPCA'24] [Enabling Large Dynamic Neural Network Training with Learning-based Memory Management](https://ieeexplore.ieee.org/document/10476398)
@@ -286,9 +335,9 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [Arxiv'23] [Fast Inference of Mixture-of-Experts Language Models with Offloading](https://arxiv.org/abs/2312.17238) [[Code](https://github.com/dvmazur/mixtral-offloading)]
 
-[Arxiv'23] [Towards MoE Deployment: Mitigating Inefficiencies in Mixture-of-Expert (MoE) Inference](https://arxiv.org/abs/2303.06182)
+[Arxiv'23] [Towards MoE Deployment: Mitigating Inefficiencies in Mixture-of-Expert (MoE) Inference](https://arxiv.org/abs/2303.06182) [Adaptive Gating]
 
-[Arxiv'23] [EdgeMoE: Fast On-Device Inference of MoE-based Large Language Models](https://arxiv.org/abs/2308.14352)
+[Arxiv'23] [EdgeMoE: Fast On-Device Inference of MoE-based Large Language Models](https://arxiv.org/abs/2308.14352) [Quantization]
 
 [Arxiv'23] [SwapMoE: Serving Off-the-shelf MoE-based Large Language Models with Tunable Memory Budget](https://arxiv.org/abs/2308.15030)
 
