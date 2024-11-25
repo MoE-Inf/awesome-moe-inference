@@ -171,7 +171,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [Arxiv'24] [AdapMoE: Adaptive Sensitivity-based Expert Gating and Management for Efficient MoE Inference](https://arxiv.org/abs/2408.10284) [[Code](https://github.com/PKU-SEC-Lab/AdapMoE)]
 
-[ACL'24] [AXMoE: Sparse Models with Fine-grained and Adaptive Expert Selection](https://aclanthology.org/2024.findings-acl.694/)
+[ACL'24] [XMoE: Sparse Models with Fine-grained and Adaptive Expert Selection](https://aclanthology.org/2024.findings-acl.694/)
 
 [Arxiv'23] [Dynamic Mixture of Experts: An Auto-Tuning Approach for Efficient Transformer Models](https://arxiv.org/abs/2405.14297) [[Code](https://github.com/LINs-lab/DynMoE)]
 
