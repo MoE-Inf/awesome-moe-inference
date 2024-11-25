@@ -144,7 +144,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 #### Knowledge Distillation
 
-[Arxiv'24] [LLaVA-MoD: Making LLaVA Tiny via MoE-Knowledge Distillation]
+[Arxiv'24] [LLaVA-MoD: Making LLaVA Tiny via MoE-Knowledge Distillation](https://arxiv.org/abs/2408.15881)
 
 [Arxiv'24] [LaDiMo: Layer-wise Distillation Inspired MoEfier](https://arxiv.org/abs/2408.04278)
 
