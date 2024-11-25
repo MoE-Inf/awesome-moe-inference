@@ -195,10 +195,19 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [ACL'24] [XFT: Unlocking the Power of Code Instruction Tuning by Simply Merging Upcycled Mixture-of-Experts](https://aclanthology.org/2024.acl-long.699.pdf)
 
-[] [Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity]
+[JMLR'22] [Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity](https://www.jmlr.org/papers/volume23/21-0998/21-0998.pdf)
 
-[] [Efficient Large Scale Language Modeling with Mixtures of Experts]
+[Arxiv'21] [Efficient Large Scale Language Modeling with Mixtures of Experts](https://arxiv.org/pdf/2112.10684)
 
+[Arxiv'22] [One student knows all experts know: From sparse to dense](https://arxiv.org/pdf/2201.10890)
+
+[Arxiv'22] [Task-specific expert pruning for sparse mixture-of experts](https://arxiv.org/pdf/2206.00277)
+
+[Arxiv'23] [Moduleformer: Learning modular large language models from uncurated data](https://arxiv.org/pdf/2306.04640)
+
+[Arxiv'23] [Experts weights averaging: A new general training scheme for vision transformers](https://arxiv.org/pdf/2308.06093)
+
+[Arxiv'24] [Demystifying the compression of mixture-of-experts through a unified framework](https://arxiv.org/pdf/2406.02500)
 
 
 ## System-Level Optimization
