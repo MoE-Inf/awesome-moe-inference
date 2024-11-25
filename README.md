@@ -144,9 +144,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 #### Knowledge Distillation
 
-[] [One Student Knows All Experts Know: From Sparse to Dens]
-
-[] [LLaVA-MoD: Making LLaVA Tiny via MoE-Knowledge Distillation]
+[Arxiv'24] [LLaVA-MoD: Making LLaVA Tiny via MoE-Knowledge Distillation]
 
 [Arxiv'24] [LaDiMo: Layer-wise Distillation Inspired MoEfier](https://arxiv.org/abs/2408.04278)
 
@@ -157,6 +155,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [MICROSOFT'22] [Knowledge distillation for mixture of experts models in speech recognition](https://www.microsoft.com/en-us/research/uploads/prod/2022/05/MainzSpeech_Interspeech2022_KD_MoE_Network.pdf)
 
+[Arxiv'22] [One Student Knows All Experts Know: From Sparse to Dens]
 
 
 
