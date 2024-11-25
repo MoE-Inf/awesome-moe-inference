@@ -155,7 +155,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [MICROSOFT'22] [Knowledge distillation for mixture of experts models in speech recognition](https://www.microsoft.com/en-us/research/uploads/prod/2022/05/MainzSpeech_Interspeech2022_KD_MoE_Network.pdf)
 
-[Arxiv'22] [One Student Knows All Experts Know: From Sparse to Dens]
+[Arxiv'22] [One Student Knows All Experts Know: From Sparse to Dens](https://arxiv.org/abs/2201.10890)
 
 
 
