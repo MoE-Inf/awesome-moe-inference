@@ -190,6 +190,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [ICLR'24] [Fusing Models with Complementary Expertise](https://openreview.net/pdf?id=PhMrGCMIRL)
 
+[Arxiv'24] [Learning More Generalized Experts by Merging Experts in Mixture-of-Experts](https://arxiv.org/pdf/2405.11530)
 ### Sparse to Dense
 
 [ACL'24] [XFT: Unlocking the Power of Code Instruction Tuning by Simply Merging Upcycled Mixture-of-Experts](https://aclanthology.org/2024.acl-long.699.pdf)
