@@ -20,7 +20,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 
 
-## SOTA MoE LLMs
+## SOTA Open Source MoE LLMs
 
 
 [Arxiv'24] [Mixtral-8x7B](https://arxiv.org/abs/2401.04088) [[Code](https://huggingface.co/mistralai/Mixtral-8x7B-v0.1)]
@@ -42,6 +42,9 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [QwenBlog'24] [Qwen1.5-MoE](https://qwenlm.github.io/blog/qwen-moe/) [[Code](https://huggingface.co/Qwen/Qwen1.5-MoE-A2.7B)]
 
+[Arxiv'24] [OLMoE: Open Mixture-of-Experts Language Models](https://arxiv.org/abs/2409.02060) [[Code](https://github.com/allenai/OLMoE)]
+
+[Arxiv'24] [OpenMoE: An Early Effort on Open Mixture-of-Experts Language Models](https://arxiv.org/abs/2402.01739) [[Code](https://github.com/XueFuzhao/OpenMoE)]
 
 [Arxiv'24] [Skywork-MoE](https://arxiv.org/abs/2406.06563) [[Code](https://huggingface.co/Skywork/Skywork-MoE-Base)]
 
