@@ -337,6 +337,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [HPCA'24] [Enabling Large Dynamic Neural Network Training with Learning-based Memory Management](https://ieeexplore.ieee.org/document/10476398)
 
+[SC'24] [APTMoE: Affinity-Aware Pipeline Tuning for MoE Models on Bandwidth-Constrained GPU Nodes](https://dl.acm.org/doi/10.1109/SC41406.2024.00096)
 
 [Arxiv'23] [Fast Inference of Mixture-of-Experts Language Models with Offloading](https://arxiv.org/abs/2312.17238) [[Code](https://github.com/dvmazur/mixtral-offloading)]
 
