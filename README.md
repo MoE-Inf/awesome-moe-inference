@@ -20,7 +20,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 
 
-## SOTA MoE LLMs
+## SOTA Open Source MoE LLMs
 
 
 [Arxiv'24] [Mixtral-8x7B](https://arxiv.org/abs/2401.04088) [[Code](https://huggingface.co/mistralai/Mixtral-8x7B-v0.1)]
@@ -42,6 +42,9 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [QwenBlog'24] [Qwen1.5-MoE](https://qwenlm.github.io/blog/qwen-moe/) [[Code](https://huggingface.co/Qwen/Qwen1.5-MoE-A2.7B)]
 
+[Arxiv'24] [OLMoE: Open Mixture-of-Experts Language Models](https://arxiv.org/abs/2409.02060) [[Code](https://github.com/allenai/OLMoE)]
+
+[Arxiv'24] [OpenMoE: An Early Effort on Open Mixture-of-Experts Language Models](https://arxiv.org/abs/2402.01739) [[Code](https://github.com/XueFuzhao/OpenMoE)]
 
 [Arxiv'24] [Skywork-MoE](https://arxiv.org/abs/2406.06563) [[Code](https://huggingface.co/Skywork/Skywork-MoE-Base)]
 
@@ -144,9 +147,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 #### Knowledge Distillation
 
-[] [One Student Knows All Experts Know: From Sparse to Dens]
-
-[] [LLaVA-MoD: Making LLaVA Tiny via MoE-Knowledge Distillation]
+[Arxiv'24] [LLaVA-MoD: Making LLaVA Tiny via MoE-Knowledge Distillation](https://arxiv.org/abs/2408.15881)
 
 [Arxiv'24] [LaDiMo: Layer-wise Distillation Inspired MoEfier](https://arxiv.org/abs/2408.04278)
 
@@ -157,6 +158,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [MICROSOFT'22] [Knowledge distillation for mixture of experts models in speech recognition](https://www.microsoft.com/en-us/research/uploads/prod/2022/05/MainzSpeech_Interspeech2022_KD_MoE_Network.pdf)
 
+[Arxiv'22] [One Student Knows All Experts Know: From Sparse to Dens](https://arxiv.org/abs/2201.10890)
 
 
 
@@ -171,7 +173,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [Arxiv'24] [AdapMoE: Adaptive Sensitivity-based Expert Gating and Management for Efficient MoE Inference](https://arxiv.org/abs/2408.10284) [[Code](https://github.com/PKU-SEC-Lab/AdapMoE)]
 
-[ACL'24] [AXMoE: Sparse Models with Fine-grained and Adaptive Expert Selection](https://aclanthology.org/2024.findings-acl.694/)
+[ACL'24] [XMoE: Sparse Models with Fine-grained and Adaptive Expert Selection](https://aclanthology.org/2024.findings-acl.694/)
 
 [Arxiv'23] [Dynamic Mixture of Experts: An Auto-Tuning Approach for Efficient Transformer Models](https://arxiv.org/abs/2405.14297) [[Code](https://github.com/LINs-lab/DynMoE)]
 
@@ -190,14 +192,24 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [ICLR'24] [Fusing Models with Complementary Expertise](https://openreview.net/pdf?id=PhMrGCMIRL)
 
+[Arxiv'24] [Learning More Generalized Experts by Merging Experts in Mixture-of-Experts](https://arxiv.org/pdf/2405.11530)
 ### Sparse to Dense
 
 [ACL'24] [XFT: Unlocking the Power of Code Instruction Tuning by Simply Merging Upcycled Mixture-of-Experts](https://aclanthology.org/2024.acl-long.699.pdf)
 
-[] [Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity]
+[JMLR'22] [Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity](https://www.jmlr.org/papers/volume23/21-0998/21-0998.pdf)
 
-[] [Efficient Large Scale Language Modeling with Mixtures of Experts]
+[Arxiv'21] [Efficient Large Scale Language Modeling with Mixtures of Experts](https://arxiv.org/pdf/2112.10684)
 
+[Arxiv'22] [One student knows all experts know: From sparse to dense](https://arxiv.org/pdf/2201.10890)
+
+[Arxiv'22] [Task-specific expert pruning for sparse mixture-of experts](https://arxiv.org/pdf/2206.00277)
+
+[Arxiv'23] [Moduleformer: Learning modular large language models from uncurated data](https://arxiv.org/pdf/2306.04640)
+
+[Arxiv'23] [Experts weights averaging: A new general training scheme for vision transformers](https://arxiv.org/pdf/2308.06093)
+
+[Arxiv'24] [Demystifying the compression of mixture-of-experts through a unified framework](https://arxiv.org/pdf/2406.02500)
 
 
 ## System-Level Optimization
