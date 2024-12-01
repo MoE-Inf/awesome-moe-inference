@@ -72,18 +72,27 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 #### Attention Module
 
+[Arxiv'24] [BAM! Just Like That: Simple and Efficient Parameter Upcycling for Mixture of Experts](https://arxiv.org/abs/2408.08274)
+
 [Arxiv'24] [MoH: Multi-Head Attention as Mixture-of-Head Attention](https://arxiv.org/abs/2410.11842) [[Code](https://github.com/SkyworkAI/MoH)]
 
 [Arxiv'24] [Dense Training, Sparse Inference: Rethinking Training of Mixture-of-Experts Language Models](https://arxiv.org/abs/2404.05567)
 
 [Arxiv'24] [JetMoE: Reaching Llama2 Performance with 0.1M Dollars](https://arxiv.org/abs/2404.07413)[[Code](https://github.com/myshell-ai/JetMoE)]
 
-[Arxiv'23] [ModuleFormer: Modularity Emerges from Mixture-of-Experts](https://arxiv.org/abs/2306.04640)
+[NeurIPS'24] [MoEUT: Mixture-of-Experts Universal Transformers](https://arxiv.org/abs/2405.16039) [[Code](https://github.com/robertcsordas/moeut)]
 
-[EMNLP'22] [Mixture of Attention Heads: Selecting Attention Heads Per Token](https://arxiv.org/abs/2210.05144)
+[NeurIPS'24] [SwitchHead: Accelerating Transformers with Mixture-of-Experts Attention](https://arxiv.org/abs/2312.07987) [[Code](https://github.com/robertcsordas/switchhead)]
+
+[Arxiv'23] [ModuleFormer: Modularity Emerges from Mixture-of-Experts](https://arxiv.org/abs/2306.04640) [[Code](https://github.com/IBM/ModuleFormer)]
+
+[Arxiv'23] [Sparse Universal Transformer](https://arxiv.org/abs/2310.07096)
+
+[EMNLP'22] [Mixture of Attention Heads: Selecting Attention Heads Per Token](https://arxiv.org/abs/2210.05144) [[Code](https://github.com/yikangshen/MoA)]
 
 [TMM'21] [Enhancing Mixture-of-Experts by Leveraging Attention for Fine-Grained Recognition](https://ieeexplore.ieee.org/abstract/document/9565360)[[Code](https://github.com/lbzhang/Enhanced-Expert-FGVC-Pytorch.git )]
 
+[ACL'20] [A Mixture of h - 1 Heads is Better than h Heads](https://aclanthology.org/2020.acl-main.587/)
 
 #### MoE Module
 
@@ -249,6 +258,9 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 [Arxiv'24] [LocMoE: A Low-Overhead MoE for Large Language Model Training](https://arxiv.org/abs/2401.13920)
 
 [Arxiv'24] [Lazarus: Resilient and Elastic Training of Mixture-of-Experts Models with Adaptive Expert Placement](https://arxiv.org/abs/2407.04656)
+
+[Arxiv'24] [Scattered Mixture-of-Experts Implementation](https://arxiv.org/abs/2403.08245) [[Code](https://github.com/shawntan/scattermoe)]
+
 
 [TPDS'24] [MPMoE: Memory Efficient MoE for Pre-Trained Models With Adaptive Pipeline Parallelism](https://ieeexplore.ieee.org/abstract/document/10494556)
 
