@@ -22,6 +22,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 ## SOTA Open Source MoE LLMs
 
+[Arxiv'24] [Hunyuan-Large](https://arxiv.org/abs/2411.02265) [[Code](https://huggingface.co/tencent/Tencent-Hunyuan-Large)]
 
 [Arxiv'24] [Mixtral-8x7B](https://arxiv.org/abs/2401.04088) [[Code](https://huggingface.co/mistralai/Mixtral-8x7B-v0.1)]
 
