@@ -123,7 +123,6 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [Arxiv'24] [Efficient Expert Pruning for Sparse Mixture-of-Experts Language Models: Enhancing Performance and Reducing Inference Costs](https://arxiv.org/abs/2407.00945) [[Code](https://github.com/imagination-research/EEP)] 
 
-[EMNLP'24] [LaCo: Large Language Model Pruning via Layer Collapse](https://arxiv.org/abs/2402.11187) [[Code](https://github.com/yangyifei729/LaCo)]
 
 [Arxiv'24] [Not All Experts are Equal: Efficient Expert Pruning and Skipping for Mixture-of-Experts Large Language Models](https://arxiv.org/abs/2402.14800) [[Code](https://github.com/Lucky-Lance/Expert_Sparsity)] 
 
@@ -135,7 +134,11 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [Arxiv'24] [A Provably Effective Method for Pruning Experts in Fine-tuned Sparse Mixture-of-Experts](https://arxiv.org/abs/2405.16646)
 
+[ICLR'24] [Merge, Then Compress: Demystify Efficient SMoE with Hints from Its Routing Policy](https://arxiv.org/abs/2310.01334) [[Code](https://github.com/unites-lab/mc-smoe)]
+
+
 [Arxiv'22] [Task-Specific Expert Pruning for Sparse Mixture-of-Experts](https://arxiv.org/abs/2206.00277)
+
 
 
 
@@ -150,7 +153,6 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [Arxiv'24] [Examining Post-Training Quantization for Mixture-of-Experts: A Benchmark](https://arxiv.org/abs/2406.08155) [[Code](https://github.com/UNITES-Lab/moe-quantization)]
 
-[EMNLP'24] [LaCo: Large Language Model Pruning via Layer Collapse](https://arxiv.org/abs/2402.11187) [[Code](https://github.com/yangyifei729/LaCo)]
 
 [INTERSPEECH'23] [Compressed MoE ASR Model Based on Knowledge Distillation and Quantization](https://www.isca-archive.org/interspeech_2023/yuan23c_interspeech.pdf)
 
@@ -175,7 +177,9 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 #### Low Rank Decomposition
 [Arxiv'24] [MoE-I2: Compressing Mixture of Experts Models through Inter-Expert Pruning and Intra-Expert Low-Rank Decomposition](https://arxiv.org/abs/2411.01016) [[Code](https://github.com/xiaochengsky/MoEI-2)]
 
+[ICLR'24] [Merge, Then Compress: Demystify Efficient SMoE with Hints from Its Routing Policy](https://arxiv.org/abs/2310.01334) [[Code](https://github.com/unites-lab/mc-smoe)]
 
+[Arxiv'22] [Parameter-Efficient Mixture-of-Experts Architecture for Pre-trained Language Models](https://arxiv.org/abs/2203.01104) [[Code](https://github.com/RUCAIBox/MPOE)]
 ### Expert Skip/Adaptive Gating
 
 
@@ -353,7 +357,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [Arxiv'24] [Fiddler: CPU-GPU Orchestration for Fast Inference of Mixture-of-Experts Models](https://arxiv.org/abs/2402.07033) [[Code](https://github.com/efeslab/fiddler)]
 
-
+[Arxiv'24] [Mixture of Experts with Mixture of Precisions for Tuning Quality of Service](https://arxiv.org/abs/2407.14417)
 
 [Electronics'24] [Efficient Inference Offloading for Mixture-of-Experts Large Language Models in Internet of Medical Things](https://www.mdpi.com/2079-9292/13/11/2077)
 
