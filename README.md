@@ -22,6 +22,29 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 ## SOTA Open Source MoE LLMs
 
+|                                                             Reference                                                            | Para. | Experts | \#L | \#H | $d_{model}$ | $d_{ffn}$ | $d_{expert}$ | Affiliation |   Time  |
+|:--------------------------------------------------------------------------------------------------------------------------------:|:-----:|:-------:|:---:|:---:|:-----------:|:---------:|:------------:|:-----------:|:-------:|
+|                           [NLLB](https://huggingface.co/facebook/nllb-moe-54b)                           |  54B  |  2/64/0 |  24 |  16 |     1024    |    8192   |     8192     |   FaceBook  | 2022.07 |
+|                      [Qwen2-57B-A14B](https://huggingface.co/Qwen/Qwen2-57B-A14B)                      | 57.4B |  8/64/0 |  28 |  28 |     3584    |   18944   |     2560     |   Alibaba   | 2023.05 |
+|                  [Mixtral-8x7B](https://huggingface.co/mistralai/Mixtral-8x7B-v0.1)                 | 46.7B |  2/8/0  |  32 |  32 |     4096    |   14336   |     14336    |  Mistral AI | 2023.12 |
+|                       [OpenMoE](https://huggingface.co/OrionZheng/openmoe-base)                       |  34B  |  2/16/0 |  12 |  12 |     768     |    2048   |     2048     |  NUS et al. | 2023.12 |
+|              [DeepSeekMoE](https://huggingface.co/deepseek-ai/deepseek-moe-16b-base)              | 16.4B |  6/64/2 |  28 |  16 |     2048    |   10944   |     1408     | DeepSeek-AI | 2024.01 |
+|                         [Qwen1.5-MoE](https://huggingface.co/Qwen/Qwen1.5-MoE-A2.7B)                        | 14.3B |  4/60/0 |  24 |  16 |     2048    |    5632   |     1408     |   Alibaba   | 2024.02 |
+|                           [JetMoE](https://huggingface.co/jetmoe/jetmoe-8b)                           | 8.52B |  2/8/0  |  24 |  32 |     2048    |    5632   |     5632     |  MIT et al. | 2024.03 |
+|                          [Jamba](https://huggingface.co/ai21labs/Jamba-v0.1)                         | 51.6B |  2/16/0 |  32 |  32 |     4096    |   14336   |     14336    |   ai21labs  | 2024.03 |
+|                               [DBRX](https://huggingface.co/databricks/dbrx-base)                               |  132B |  4/16/0 |  40 |  48 |     6144    |   10752   |     10752    |  Databricks | 2024.03 |
+|                                [Grok-1](https://huggingface.co/xai-org/grok-1)                                |  314B |  2/8/0  |  64 |  48 |     6144    |    UNK    |      UNK     |     xAI     | 2024.03 |
+|                        [Arctic](https://huggingface.co/Snowflake/snowflake-arctic-base)                       |  482B | 2/128/0 |  35 |  56 |     7168    |    4864   |     4864     |  Snowflake  | 2024.04 |
+|                 [Mixtral-8x22B](https://huggingface.co/mistralai/Mixtral-8x22B-v0.1)                |  141B |  2/8/0  |  56 |  48 |     6144    |   16384   |     16384    |  Mistral AI | 2024.04 |
+|    [DeepSeek-V2](https://huggingface.co/deepseek-ai/DeepSeek-V2)   |  236B | 6/160/2 |  60 | 128 |     5120    |   12288   |     1536     | DeepSeek-AI | 2024.04 |
+|                     [Skywork-MoE](https://huggingface.co/Skywork/Skywork-MoE-Base)                    |  13B  |  2/16/0 |  52 |  36 |     4608    |   12288   |     12288    | Kunlun Tech | 2024.05 |
+|                           [Yuan2](https://huggingface.co/IEITYuan/Yuan2-M32-hf)                           |  40B  |  2/32/0 |  24 |  16 |     2048    |    8192   |     8192     |  IEIT-Yuan  | 2024.05 |
+|                         [LLaMA-MoE](https://github.com/pjlab-sys4nlp/llama-moe)                         |  6.7B |  2/8/0  |  32 |  32 |     4096    |   11008   |     11008    |  Zhu et al. | 2024.06 |
+|                     [OLMoE](https://huggingface.co/allenai/OLMoE-1B-7B-0924)                    | 6.92B |  8/64/0 |  16 |  16 |     2048    |    1024   |     1024     |   AllenAI   | 2024.07 |
+|                      [Phi-3](https://huggingface.co/microsoft/Phi-3.5-MoE-instruct)                     | 41.9B |  2/16/0 |  32 |  32 |     4096    |    6400   |     6400     |  MicroSoft  | 2024.08 |
+|                           [GRIN-MoE](https://huggingface.co/microsoft/GRIN-MoE)                          | 41.9B |  2/16/0 |  32 |  32 |     4096    |    6400   |     6400     |  MicroSoft  | 2024.09 |
+| [Hunyuan-Large](https://huggingface.co/tencent/Tencent-Hunyuan-Large/tree/main/Hunyuan-A52B-Pretrain) |  389B |  1/16/1 |  64 |  80 |     6400    |   18304   |     18304    |   Tencent   | 2024.11 |
+
 [Arxiv'24] [Hunyuan-Large](https://arxiv.org/abs/2411.02265) [[Code](https://huggingface.co/tencent/Tencent-Hunyuan-Large)]
 
 [Arxiv'24] [Mixtral-8x7B](https://arxiv.org/abs/2401.04088) [[Code](https://huggingface.co/mistralai/Mixtral-8x7B-v0.1)]
