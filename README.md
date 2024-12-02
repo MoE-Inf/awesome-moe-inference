@@ -22,6 +22,29 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 ## SOTA Open Source MoE LLMs
 
+|                                                             Reference                                                            | Para. | Experts | \#L | \#H | $d_{model}$ | $d_{ffn}$ | $d_{expert}$ | Affiliation |   Time  |
+|:--------------------------------------------------------------------------------------------------------------------------------:|:-----:|:-------:|:---:|:---:|:-----------:|:---------:|:------------:|:-----------:|:-------:|
+|                           NLLB(https://huggingface.co/facebook/nllb-moe-54b)                           |  54B  |  2/64/0 |  24 |  16 |     1024    |    8192   |     8192     |   FaceBook  | 2022.07 |
+|                      \href{https://huggingface.co/Qwen/Qwen2-57B-A14B}{Qwen2-57B-A14B~\cite{yang2024qwen2}}                      | 57.4B |  8/64/0 |  28 |  28 |     3584    |   18944   |     2560     |   Alibaba   | 2023.05 |
+|                  \href{https://huggingface.co/mistralai/Mixtral-8x7B-v0.1}{Mixtral-8x7B~\cite{jiang2024mixtral}}                 | 46.7B |  2/8/0  |  32 |  32 |     4096    |   14336   |     14336    |  Mistral AI | 2023.12 |
+|                       \href{https://huggingface.co/OrionZheng/openmoe-base}{OpenMoE~\cite{xue2024openmoe}}                       |  34B  |  2/16/0 |  12 |  12 |     768     |    2048   |     2048     |  NUS et al. | 2023.12 |
+|              \href{https://huggingface.co/deepseek-ai/deepseek-moe-16b-base}{DeepSeekMoE~\cite{dai2024deepseekmoe}}              | 16.4B |  6/64/2 |  28 |  16 |     2048    |   10944   |     1408     | DeepSeek-AI | 2024.01 |
+|                         \href{https://huggingface.co/Qwen/Qwen1.5-MoE-A2.7B}{Qwen1.5-MoE~\cite{qwen_moe}}                        | 14.3B |  4/60/0 |  24 |  16 |     2048    |    5632   |     1408     |   Alibaba   | 2024.02 |
+|                           \href{https://huggingface.co/jetmoe/jetmoe-8b}{JetMoE~\cite{shen2024jetmoe}}                           | 8.52B |  2/8/0  |  24 |  32 |     2048    |    5632   |     5632     |  MIT et al. | 2024.03 |
+|                          \href{https://huggingface.co/ai21labs/Jamba-v0.1}{Jamba~\cite{lieber2024jamba}}                         | 51.6B |  2/16/0 |  32 |  32 |     4096    |   14336   |     14336    |   ai21labs  | 2024.03 |
+|                               \href{https://huggingface.co/databricks/dbrx-base}{DBRX~\cite{DBRX}}                               |  132B |  4/16/0 |  40 |  48 |     6144    |   10752   |     10752    |  Databricks | 2024.03 |
+|                                \href{https://huggingface.co/xai-org/grok-1}{Grok-1~\cite{Grok-1}}                                |  314B |  2/8/0  |  64 |  48 |     6144    |    UNK    |      UNK     |     xAI     | 2024.03 |
+|                        \href{https://huggingface.co/Snowflake/snowflake-arctic-base}{Arctic~\cite{Arctic}}                       |  482B | 2/128/0 |  35 |  56 |     7168    |    4864   |     4864     |  Snowflake  | 2024.04 |
+|                 \href{https://huggingface.co/mistralai/Mixtral-8x22B-v0.1}{Mixtral-8x22B~\cite{jiang2024mixtral}}                |  141B |  2/8/0  |  56 |  48 |     6144    |   16384   |     16384    |  Mistral AI | 2024.04 |
+|    \href{https://huggingface.co/deepseek-ai/DeepSeek-V2}{DeepSeek-V2~\cite{deepseekai2024deepseekv2strongeconomicalefficient}}   |  236B | 6/160/2 |  60 | 128 |     5120    |   12288   |     1536     | DeepSeek-AI | 2024.04 |
+|                     \href{https://huggingface.co/Skywork/Skywork-MoE-Base}{Skywork-MoE~\cite{wei2024skywork}}                    |  13B  |  2/16/0 |  52 |  36 |     4608    |   12288   |     12288    | Kunlun Tech | 2024.05 |
+|                           \href{https://huggingface.co/IEITYuan/Yuan2-M32-hf}{Yuan2~\cite{wu2024yuan}}                           |  40B  |  2/32/0 |  24 |  16 |     2048    |    8192   |     8192     |  IEIT-Yuan  | 2024.05 |
+|                         \href{https://github.com/pjlab-sys4nlp/llama-moe}{LLaMA-MoE~\cite{zhu2024llama}}                         |  6.7B |  2/8/0  |  32 |  32 |     4096    |   11008   |     11008    |  Zhu et al. | 2024.06 |
+|                     \href{https://huggingface.co/allenai/OLMoE-1B-7B-0924}{OLMoE~\cite{muennighoff2024olmoe}}                    | 6.92B |  8/64/0 |  16 |  16 |     2048    |    1024   |     1024     |   AllenAI   | 2024.07 |
+|                      \href{https://huggingface.co/microsoft/Phi-3.5-MoE-instruct}{Phi-3~\cite{abdin2024phi}}                     | 41.9B |  2/16/0 |  32 |  32 |     4096    |    6400   |     6400     |  MicroSoft  | 2024.08 |
+|                           \href{https://huggingface.co/microsoft/GRIN-MoE}{GRIN-MoE~\cite{liu2024grin}}                          | 41.9B |  2/16/0 |  32 |  32 |     4096    |    6400   |     6400     |  MicroSoft  | 2024.09 |
+| \href{https://huggingface.co/tencent/Tencent-Hunyuan-Large/tree/main/Hunyuan-A52B-Pretrain}{Hunyuan-Large~\cite{sun2024hunyuan}} |  389B |  1/16/1 |  64 |  80 |     6400    |   18304   |     18304    |   Tencent   | 2024.11 |
+
 [Arxiv'24] [Hunyuan-Large](https://arxiv.org/abs/2411.02265) [[Code](https://huggingface.co/tencent/Tencent-Hunyuan-Large)]
 
 [Arxiv'24] [Mixtral-8x7B](https://arxiv.org/abs/2401.04088) [[Code](https://huggingface.co/mistralai/Mixtral-8x7B-v0.1)]
