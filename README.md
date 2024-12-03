@@ -114,8 +114,6 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [EMNLP'22] [Mixture of Attention Heads: Selecting Attention Heads Per Token](https://arxiv.org/abs/2210.05144) [[Code](https://github.com/yikangshen/MoA)]
 
-[TMM'21] [Enhancing Mixture-of-Experts by Leveraging Attention for Fine-Grained Recognition](https://ieeexplore.ieee.org/abstract/document/9565360)[[Code](https://github.com/lbzhang/Enhanced-Expert-FGVC-Pytorch.git )]
-
 [ACL'20] [A Mixture of h - 1 Heads is Better than h Heads](https://aclanthology.org/2020.acl-main.587/)
 
 #### MoE Module
@@ -124,7 +122,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [Arxiv'24] [MoELoRA: Contrastive Learning Guided Mixture of Experts on Parameter-Efficient Fine-Tuning for Large Language Models](https://arxiv.org/abs/2402.12851)
 
-[Arxiv'24] [SEER-MoE: Sparse Expert Efficiency through Regularization for Mixture-of-Experts](https://arxiv.org/abs/2404.05089)
+
 
 [Arxiv'23] [Pre-gated MoE: An Algorithm-System Co-Design for Fast and Scalable Mixture-of-Expert Inference](https://arxiv.org/abs/2308.12066) [[Code](https://github.com/ranggihwang/Pregated_MoE)]
 
@@ -132,7 +130,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [KDD'23] [COMET: Learning Cardinality Constrained Mixture of Experts with Trees and Local Search](https://dl.acm.org/doi/pdf/10.1145/3580305.3599278)
 
-[EMNLP'22] [Who Says Elephants Can't Run: Bringing Large Scale MoE Models into Cloud Scale Production](https://arxiv.org/abs/2211.10017)
+
 
 
 
@@ -141,6 +139,9 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 #### Pruning
 
 [Arxiv'24] [MoE-Pruner: Pruning Mixture-of-Experts Large Language Model using the Hints from Its Router](https://arxiv.org/abs/2410.12013)
+
+
+[Arxiv'24] [SEER-MoE: Sparse Expert Efficiency through Regularization for Mixture-of-Experts](https://arxiv.org/abs/2404.05089)
 
 [Arxiv'24] [Diversifying the Expert Knowledge for Task-Agnostic Pruning in Sparse Mixture-of-Experts](https://arxiv.org/abs/2407.09590)
 
@@ -157,6 +158,9 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [Arxiv'24] [A Provably Effective Method for Pruning Experts in Fine-tuned Sparse Mixture-of-Experts](https://arxiv.org/abs/2405.16646)
 
+
+[Arxiv'24] [MoE-I2: Compressing Mixture of Experts Models through Inter-Expert Pruning and Intra-Expert Low-Rank Decomposition](https://arxiv.org/abs/2411.01016) [[Code](https://github.com/xiaochengsky/MoEI-2)]
+
 [ICLR'24] [Merge, Then Compress: Demystify Efficient SMoE with Hints from Its Routing Policy](https://arxiv.org/abs/2310.01334) [[Code](https://github.com/unites-lab/mc-smoe)]
 
 
@@ -172,12 +176,22 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [Arxiv'24] [QMoE: Practical Sub-1-Bit Compression of Trillion-Parameter Models](https://arxiv.org/abs/2310.16795) [[Code](http://github.com/IST-DASLab/qmoe)]  
 
+[Arxiv'24] [HOBBIT: A Mixed Precision Expert Offloading System for Fast MoE Inference](https://arxiv.org/abs/2411.01433)
+
+
+
+
 [Arxiv'24] [Mixture of Experts with Mixture of Precisions for Tuning Quality of Service](https://arxiv.org/abs/2407.14417)
 
 [Arxiv'24] [Examining Post-Training Quantization for Mixture-of-Experts: A Benchmark](https://arxiv.org/abs/2406.08155) [[Code](https://github.com/UNITES-Lab/moe-quantization)]
 
 
 [INTERSPEECH'23] [Compressed MoE ASR Model Based on Knowledge Distillation and Quantization](https://www.isca-archive.org/interspeech_2023/yuan23c_interspeech.pdf)
+
+[Arxiv'23] [EdgeMoE: Fast On-Device Inference of MoE-based Large Language Models](https://arxiv.org/abs/2308.14352) [Quantization]
+
+
+[EMNLP'22] [Who Says Elephants Can't Run: Bringing Large Scale MoE Models into Cloud Scale Production](https://arxiv.org/abs/2211.10017)
 
 
 #### Knowledge Distillation
@@ -373,6 +387,9 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 [Arxiv'24] [ExpertFlow: Optimized Expert Activation and Token Allocation for Efficient Mixture-of-Experts Inference](https://arxiv.org/abs/2410.17954)
 
 [Arxiv'24] [AdapMoE: Adaptive Sensitivity-based Expert Gating and Management for Efficient MoE Inference](https://arxiv.org/abs/2408.10284) [[Code](https://github.com/PKU-SEC-Lab/AdapMoE)] [Adaptive Gating]
+
+
+[Arxiv'24] [Mixture of Experts with Mixture of Precisions for Tuning Quality of Service](https://arxiv.org/abs/2407.14417)
 
 [MLSys'24] [SiDA: Sparsity-Inspired Data-Aware Serving for Efficient and Scalable Large Mixture-of-Experts Models](https://proceedings.mlsys.org/paper_files/paper/2024/hash/698cfaf72a208aef2e78bcac55b74328-Abstract-Conference.html) [[Code](https://github.com/timlee0212/SiDA-MoE)]
 
