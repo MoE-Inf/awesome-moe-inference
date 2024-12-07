@@ -11,10 +11,10 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 ## Survey
 
-[Preprints'24] [The Evolution of Mixture of Experts: A Survey from Basics to Breakthroughs](https://www.preprints.org/manuscript/202408.0583/v2)
+[Preprints'24.8] [The Evolution of Mixture of Experts: A Survey from Basics to Breakthroughs](https://www.preprints.org/manuscript/202408.0583/v2)
 
 
-[Arxiv'24] [A Survey on Mixture of Experts](https://arxiv.org/abs/2407.06204) [[Code](https://github.com/withinmiaov/A-Survey-on-Mixture-of-Experts)]
+[Arxiv'24.8] [A Survey on Mixture of Experts](https://arxiv.org/abs/2407.06204) [[Code](https://github.com/withinmiaov/A-Survey-on-Mixture-of-Experts)]
 
 [Arxiv'22] [A Review of Sparse Expert Models in Deep Learning](https://arxiv.org/abs/2209.01667)
 
