@@ -141,11 +141,14 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 [Arxiv'24] [MoE-Pruner: Pruning Mixture-of-Experts Large Language Model using the Hints from Its Router](https://arxiv.org/abs/2410.12013)
 
 
+
 [Arxiv'24] [SEER-MoE: Sparse Expert Efficiency through Regularization for Mixture-of-Experts](https://arxiv.org/abs/2404.05089)
 
 [Arxiv'24] [Diversifying the Expert Knowledge for Task-Agnostic Pruning in Sparse Mixture-of-Experts](https://arxiv.org/abs/2407.09590)
 
 [Arxiv'24] [Efficient Expert Pruning for Sparse Mixture-of-Experts Language Models: Enhancing Performance and Reducing Inference Costs](https://arxiv.org/abs/2407.00945) [[Code](https://github.com/imagination-research/EEP)] 
+
+
 
 
 [Arxiv'24] [Not All Experts are Equal: Efficient Expert Pruning and Skipping for Mixture-of-Experts Large Language Models](https://arxiv.org/abs/2402.14800) [[Code](https://github.com/Lucky-Lance/Expert_Sparsity)] 
@@ -163,6 +166,8 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [ICLR'24] [Merge, Then Compress: Demystify Efficient SMoE with Hints from Its Routing Policy](https://arxiv.org/abs/2310.01334) [[Code](https://github.com/unites-lab/mc-smoe)]
 
+
+[Arxiv'23] [ModuleFormer: Modularity Emerges from Mixture-of-Experts](https://arxiv.org/abs/2306.04640) [[Code](https://github.com/IBM/ModuleFormer)]
 
 [Arxiv'22] [Task-Specific Expert Pruning for Sparse Mixture-of-Experts](https://arxiv.org/abs/2206.00277)
 
@@ -210,6 +215,10 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 [Arxiv'22] [One Student Knows All Experts Know: From Sparse to Dens](https://arxiv.org/abs/2201.10890)
 
 
+[JMLR'22] [Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity](https://www.jmlr.org/papers/volume23/21-0998/21-0998.pdf)
+
+[Arxiv'21] [Efficient Large Scale Language Modeling with Mixtures of Experts](https://arxiv.org/pdf/2112.10684)
+
 
 #### Low Rank Decomposition
 [Arxiv'24] [MoE-I2: Compressing Mixture of Experts Models through Inter-Expert Pruning and Intra-Expert Low-Rank Decomposition](https://arxiv.org/abs/2411.01016) [[Code](https://github.com/xiaochengsky/MoEI-2)]
@@ -248,19 +257,18 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [ACL'24] [XFT: Unlocking the Power of Code Instruction Tuning by Simply Merging Upcycled Mixture-of-Experts](https://aclanthology.org/2024.acl-long.699.pdf)
 
-[JMLR'22] [Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity](https://www.jmlr.org/papers/volume23/21-0998/21-0998.pdf)
 
-[Arxiv'21] [Efficient Large Scale Language Modeling with Mixtures of Experts](https://arxiv.org/pdf/2112.10684)
+[Arxiv'23] [Experts weights averaging: A new general training scheme for vision transformers](https://arxiv.org/pdf/2308.06093)
+
+[JMLR'22] [Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity](https://www.jmlr.org/papers/volume23/21-0998/21-0998.pdf)
 
 [Arxiv'22] [One student knows all experts know: From sparse to dense](https://arxiv.org/pdf/2201.10890)
 
 [Arxiv'22] [Task-specific expert pruning for sparse mixture-of experts](https://arxiv.org/pdf/2206.00277)
 
-[Arxiv'23] [Moduleformer: Learning modular large language models from uncurated data](https://arxiv.org/pdf/2306.04640)
+[Arxiv'21] [Efficient Large Scale Language Modeling with Mixtures of Experts](https://arxiv.org/pdf/2112.10684)
 
-[Arxiv'23] [Experts weights averaging: A new general training scheme for vision transformers](https://arxiv.org/pdf/2308.06093)
 
-[Arxiv'24] [Demystifying the compression of mixture-of-experts through a unified framework](https://arxiv.org/pdf/2406.02500)
 
 
 ## System-Level Optimization
