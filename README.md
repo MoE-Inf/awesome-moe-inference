@@ -444,10 +444,15 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 [NeurIPS'22] [M³ViT: Mixture-of-Experts Vision Transformer for Efficient Multi-task Learning with Model-Accelerator Co-design](https://proceedings.neurips.cc/paper_files/paper/2022/file/b653f34d576d1790481e3797cb740214-Paper-Conference.pdf) [[Code](https://github.com/VITA-Group/M3ViT)]
 
 
+## Citation
 
+If you find this repo useful, please cite our paper:
 
-
-
-
-## Contribute
-
+```
+@misc{liu2024moeinf,
+      title={A Survey on Inference Optimization Techniques for Mixture of Experts Models}, 
+      author={Jiacheng Liu and Peng Tang and Wenfeng Wang and Yuhang Ren and Xiaofeng Hou and Pheng-Ann Heng and Minyi Guo and Chao Li},
+      year={2024},
+      archivePrefix={arXiv},
+}
+```
