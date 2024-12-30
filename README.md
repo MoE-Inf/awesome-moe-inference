@@ -44,7 +44,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 |                      [Phi-3](https://huggingface.co/microsoft/Phi-3.5-MoE-instruct)                     | 41.9B |  2/16/0 |  32 |  32 |     4096    |    6400   |     6400     |  MicroSoft  | 2024.08 |
 |                           [GRIN-MoE](https://huggingface.co/microsoft/GRIN-MoE)                          | 41.9B |  2/16/0 |  32 |  32 |     4096    |    6400   |     6400     |  MicroSoft  | 2024.09 |
 | [Hunyuan-Large](https://huggingface.co/tencent/Tencent-Hunyuan-Large/tree/main/Hunyuan-A52B-Pretrain) |  389B |  1/16/1 |  64 |  80 |     6400    |   18304   |     18304    |   Tencent   | 2024.11 |
-|    [DeepSeek-V3](huggingface.co/deepseek-ai/DeepSeek-V3-Base)| 685B | 8/256/1 | 61 | 128 | 7168 | 18432 | 2048 | DeepSeek-AI   | 2024.12 |
+|    [DeepSeek-V3](huggingface.co/deepseek-ai/DeepSeek-V3-Base)| 671B | 8/256/1 | 61 | 128 | 7168 | 18432 | 2048 | DeepSeek-AI   | 2024.12 |
 
 
 [Arxiv'24.11] [Hunyuan-Large](https://arxiv.org/abs/2411.02265) [[Code](https://huggingface.co/tencent/Tencent-Hunyuan-Large)]
