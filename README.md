@@ -276,6 +276,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 ### Expert Parallel
 
+[Arxiv'25.1] [Optimizing Distributed Deployment of Mixture-of-Experts Model Inference in Serverless Computing](https://arxiv.org/abs/2501.05313)
 
 
 [ASPLOS'25] [FSMoE: A Flexible and Scalable Training System for Sparse Mixture-of-Experts Models](https://shaohuais.github.io/publications/index.html)
