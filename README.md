@@ -242,6 +242,9 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 [Arxiv'23] [Towards MoE Deployment: Mitigating Inefficiencies in Mixture-of-Expert (MoE) Inference](https://arxiv.org/abs/2303.06182)
 
 [Arxiv'24.8] [AdaMoLE: Fine-Tuning Large Language Models with Adaptive Mixture of Low-Rank Adaptation Experts](https://arxiv.org/abs/2405.00361)
+
+[ICCV'23] [AdaMV-MoE: Adaptive Multi-Task Vision Mixture-of-Experts](https://ieeexplore.ieee.org/document/10377734)
+
 ### Merge Expert
 
 [Arxiv'24.10] [Retraining-Free Merging of Sparse Mixture-of-Experts via Hierarchical Clustering](https://arxiv.org/abs/2410.08589)
