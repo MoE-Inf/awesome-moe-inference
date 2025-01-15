@@ -142,6 +142,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [Arxiv'24.10] [MoE-Pruner: Pruning Mixture-of-Experts Large Language Model using the Hints from Its Router](https://arxiv.org/abs/2410.12013)
 
+[ACL'24] [HyperMoE: Towards Better Mixture of Experts via Transferring Among Experts](https://aclanthology.org/2024.acl-long.571/) [[Code](https://github.com/Bumble666/Hyper_MoE)]
 
 [Arxiv'24.4] [SEER-MoE: Sparse Expert Efficiency through Regularization for Mixture-of-Experts](https://arxiv.org/abs/2404.05089)
 
@@ -170,7 +171,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [Arxiv'22] [Task-Specific Expert Pruning for Sparse Mixture-of-Experts](https://arxiv.org/abs/2206.00277)
 
-
+[SENSYS '24] [LiteMoE: Customizing On-device LLM Serving via Proxy Submodel Tuning](https://dl.acm.org/doi/abs/10.1145/3666025.3699355)
 
 
 #### Quantization
@@ -239,6 +240,11 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 [Arxiv'23] [Adaptive Gating in Mixture-of-Experts based Language Models](https://arxiv.org/abs/2310.07188)
 
 [Arxiv'23] [Towards MoE Deployment: Mitigating Inefficiencies in Mixture-of-Expert (MoE) Inference](https://arxiv.org/abs/2303.06182)
+
+[Arxiv'24.8] [AdaMoLE: Fine-Tuning Large Language Models with Adaptive Mixture of Low-Rank Adaptation Experts](https://arxiv.org/abs/2405.00361)
+
+[ICCV'23] [AdaMV-MoE: Adaptive Multi-Task Vision Mixture-of-Experts](https://ieeexplore.ieee.org/document/10377734)
+
 ### Merge Expert
 
 [Arxiv'24.10] [Retraining-Free Merging of Sparse Mixture-of-Experts via Hierarchical Clustering](https://arxiv.org/abs/2410.08589)
@@ -252,6 +258,9 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 [ICLR'24.5] [Fusing Models with Complementary Expertise](https://openreview.net/pdf?id=PhMrGCMIRL)
 
 [Arxiv'24.5] [Learning More Generalized Experts by Merging Experts in Mixture-of-Experts](https://arxiv.org/abs/2405.11530)
+
+[Arxiv'24.9] [DA-MoE: Towards Dynamic Expert Allocation for Mixture-of-Experts Models](https://arxiv.org/abs/2409.06669)
+
 ### Sparse to Dense
 
 [ACL'24.6] [XFT: Unlocking the Power of Code Instruction Tuning by Simply Merging Upcycled Mixture-of-Experts](https://aclanthology.org/2024.acl-long.699.pdf)
