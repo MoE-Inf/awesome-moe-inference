@@ -171,7 +171,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [Arxiv'22] [Task-Specific Expert Pruning for Sparse Mixture-of-Experts](https://arxiv.org/abs/2206.00277)
 
-
+[SENSYS '24] [LiteMoE: Customizing On-device LLM Serving via Proxy Submodel Tuning](https://dl.acm.org/doi/abs/10.1145/3666025.3699355)
 
 
 #### Quantization
