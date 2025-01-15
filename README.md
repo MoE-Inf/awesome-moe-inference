@@ -142,7 +142,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [Arxiv'24.10] [MoE-Pruner: Pruning Mixture-of-Experts Large Language Model using the Hints from Its Router](https://arxiv.org/abs/2410.12013)
 
-[ACL'24] [HyperMoE: Towards Better Mixture of Experts via Transferring Among Experts](https://aclanthology.org/2024.acl-long.571/)
+[ACL'24] [HyperMoE: Towards Better Mixture of Experts via Transferring Among Experts](https://aclanthology.org/2024.acl-long.571/) [[Code](https://github.com/Bumble666/Hyper_MoE)]
 
 [Arxiv'24.4] [SEER-MoE: Sparse Expert Efficiency through Regularization for Mixture-of-Experts](https://arxiv.org/abs/2404.05089)
 
