@@ -254,6 +254,9 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 [ICLR'24.5] [Fusing Models with Complementary Expertise](https://openreview.net/pdf?id=PhMrGCMIRL)
 
 [Arxiv'24.5] [Learning More Generalized Experts by Merging Experts in Mixture-of-Experts](https://arxiv.org/abs/2405.11530)
+
+[Arxiv'24.9] [DA-MoE: Towards Dynamic Expert Allocation for Mixture-of-Experts Models](https://arxiv.org/abs/2409.06669)
+
 ### Sparse to Dense
 
 [ACL'24.6] [XFT: Unlocking the Power of Code Instruction Tuning by Simply Merging Upcycled Mixture-of-Experts](https://aclanthology.org/2024.acl-long.699.pdf)
