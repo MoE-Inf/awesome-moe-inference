@@ -381,6 +381,8 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 ### Expert Offloading
 
+[Arxiv'24.11] [Mixture of Cache-Conditional Experts for Efficient Mobile Device Inference](https://arxiv.org/abs/2412.00099)
+
 [Arxiv'24.10] [ProMoE: Fast MoE-based LLM Serving using Proactive Caching](https://arxiv.org/abs/2410.22134)
 
 
