@@ -49,6 +49,8 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 |    [DeepSeek-R1](https://huggingface.co/deepseek-ai/DeepSeek-R1)| 671B | 8/256/1 | 61 | 128 | 7168 | 18432 | 2048 | DeepSeek-AI   | 2025.1 |
 
 
+[DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf) [[Code](https://huggingface.co/deepseek-ai/DeepSeek-R1)]
+
 [Arxiv'25.1] [MiniMax-Text-01](https://arxiv.org/pdf/2501.08313) [[Code](https://huggingface.co/MiniMaxAI/MiniMax-Text-01)]
 
 [Arxiv'24.11] [Hunyuan-Large](https://arxiv.org/abs/2411.02265) [[Code](https://huggingface.co/tencent/Tencent-Hunyuan-Large)]
