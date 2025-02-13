@@ -396,7 +396,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 ### Expert Offloading
 
-[Arxiv'25.02][fMoE: Fine-Grained Expert Offloading for Large Mixture-of-Experts Serving](https://www.arxiv.org/abs/2502.05370)
+[Arxiv'25.02] [fMoE: Fine-Grained Expert Offloading for Large Mixture-of-Experts Serving](https://www.arxiv.org/abs/2502.05370)
 
 [Arxiv'24.12] [DAOP: Data-Aware Offloading and Predictive Pre-Calculation for Efficient MoE Inference](https://arxiv.org/abs/2501.10375)
 
