@@ -45,7 +45,13 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 |                           [GRIN-MoE](https://huggingface.co/microsoft/GRIN-MoE)                          | 41.9B |  2/16/0 |  32 |  32 |     4096    |    6400   |     6400     |  MicroSoft  | 2024.09 |
 | [Hunyuan-Large](https://huggingface.co/tencent/Tencent-Hunyuan-Large/tree/main/Hunyuan-A52B-Pretrain) |  389B |  1/16/1 |  64 |  80 |     6400    |   18304   |     18304    |   Tencent   | 2024.11 |
 |    [DeepSeek-V3](huggingface.co/deepseek-ai/DeepSeek-V3-Base)| 671B | 8/256/1 | 61 | 128 | 7168 | 18432 | 2048 | DeepSeek-AI   | 2024.12 |
+|    [MiniMax-Text-01](https://huggingface.co/MiniMaxAI/MiniMax-Text-01)| 456B | 2/32/0 | 80 | 64 | 6144 | 9216 | 9216 | MiniMax-AI   | 2025.1 |
+|    [DeepSeek-R1](https://huggingface.co/deepseek-ai/DeepSeek-R1)| 671B | 8/256/1 | 61 | 128 | 7168 | 18432 | 2048 | DeepSeek-AI   | 2025.1 |
 
+
+[DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf) [[Code](https://huggingface.co/deepseek-ai/DeepSeek-R1)]
+
+[Arxiv'25.1] [MiniMax-Text-01](https://arxiv.org/pdf/2501.08313) [[Code](https://huggingface.co/MiniMaxAI/MiniMax-Text-01)]
 
 [Arxiv'24.11] [Hunyuan-Large](https://arxiv.org/abs/2411.02265) [[Code](https://huggingface.co/tencent/Tencent-Hunyuan-Large)]
 
