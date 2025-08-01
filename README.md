@@ -453,7 +453,7 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 [SoCC '24.11] [MoEsaic: Shared Mixture of Experts]
 
 
-## Hareware-Level Optimization
+## Hardware-Level Optimization
 
 [MICRO'24.9] [Duplex: A Device for Large Language Models with Mixture of Experts, Grouped Query Attention, and Continuous Batching](https://arxiv.org/abs/2409.01141)
 
