@@ -47,7 +47,30 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 |    [DeepSeek-V3](huggingface.co/deepseek-ai/DeepSeek-V3-Base)| 671B | 8/256/1 | 61 | 128 | 7168 | 18432 | 2048 | DeepSeek-AI   | 2024.12 |
 |    [MiniMax-Text-01](https://huggingface.co/MiniMaxAI/MiniMax-Text-01)| 456B | 2/32/0 | 80 | 64 | 6144 | 9216 | 9216 | MiniMax-AI   | 2025.1 |
 |    [DeepSeek-R1](https://huggingface.co/deepseek-ai/DeepSeek-R1)| 671B | 8/256/1 | 61 | 128 | 7168 | 18432 | 2048 | DeepSeek-AI   | 2025.1 |
+| [Llama 4 Maverick](https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct) | 402B  | 1/128/0  |  48  |  40  |    5120     |   16384   |     8192     |    Meta     | 2025.4  |
+| [Qwen3-235B-A22B](https://huggingface.co/Qwen/Qwen3-235B-A22B-Thinking-2507) | 235B | 8/128/0 | 94 | 64 | 4096 | 12288 | 1536 | Alibaba | 2025.5 |
+| [ERNIE-4.5](https://huggingface.co/baidu/ERNIE-4.5-300B-A47B-PT) | 300B | 8/64/0 | 54 | 64 | 8192 | 28672 | 3584 | Baidu | 2025.6 |
+| [Hunyuan-A13B](https://huggingface.co/tencent/Hunyuan-A13B-Instruct) | 80B | 8/64/1 | 32 | 32 | 4096 | 24576 | 3072 | Tencent | 2025.6 |
+| [Kimi-K2](https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905) | 1043B | 8/384/1  |  61  |  64  |    7168     |   18432   |     2048     | MoonshotAI  | 2025.7  |
+| [GPT-oss](https://huggingface.co/openai/gpt-oss-120b) | 120B | 4/128/0 | 36 | 64 | 2880 | 11520 | 2880 | OpenAI | 2025.8 |
+| [GLM-4.5](https://huggingface.co/zai-org/GLM-4.5) | 355B | 8/160/1 | 92 | 96 | 5120 | 12288 | 1536 | Z.ai | 2025.8 |
+| [LongCat](https://huggingface.co/meituan-longcat/LongCat-Flash-Chat) | 560B | 12/512/0 | 28 | 64 | 6144 | 12288 | 2048 | Meituan | 2025.9 |
 
+
+
+[Arxiv'25.9] [LongCat](https://arxiv.org/abs/2509.01322) [[Code](https://huggingface.co/meituan-longcat/LongCat-Flash-Chat)]
+
+[Arxiv'25.8] [GLM-4.5](https://arxiv.org/abs/2508.06471) [[Code](https://huggingface.co/zai-org/GLM-4.5)]
+
+[Arxiv'25.8] [GPT-oss](https://arxiv.org/abs/2508.10925) [[Code](https://huggingface.co/openai/gpt-oss-120b)]
+
+[Kimi-K2](https://github.com/MoonshotAI/Kimi-K2/blob/main/tech_report.pdf) [[Code](https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905)]
+
+[Hunyuan-A13B](https://github.com/Tencent-Hunyuan/Hunyuan-A13B/blob/main/report/Hunyuan_A13B_Technical_Report.pdf) [[Code](https://huggingface.co/tencent/Hunyuan-A13B-Instruct)]
+
+[ERNIE-4.5](https://ernie.baidu.com/blog/publication/ERNIE_Technical_Report.pdf) [[Code](https://huggingface.co/baidu/ERNIE-4.5-300B-A47B-PT))]
+
+[Arxiv'25.5] [Qwen3](https://arxiv.org/abs/2505.09388) [[Code](https://huggingface.co/Qwen/Qwen3-235B-A22B-Thinking-2507)]
 
 [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf) [[Code](https://huggingface.co/deepseek-ai/DeepSeek-R1)]
 
@@ -188,7 +211,6 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 [Arxiv'23] [QMoE: Practical Sub-1-Bit Compression of Trillion-Parameter Models](https://arxiv.org/abs/2310.16795) [[Code](http://github.com/IST-DASLab/qmoe)]  
 
 [Arxiv'24.11] [HOBBIT: A Mixed Precision Expert Offloading System for Fast MoE Inference](https://arxiv.org/abs/2411.01433)
-
 
 
 
@@ -448,9 +470,15 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 
 [ACL'24.5] [SwapMoE: Serving Off-the-shelf MoE-based Large Language Models with Tunable Memory Budget](https://arxiv.org/abs/2308.15030)
 
+[ASPLOS'25] [MoE-Lightning: High-Throughput MoE Inference on Memory-constrained GPUs](https://arxiv.org/abs/2411.11217)
+
+[Arxiv'25] [MOE-GEN: High-Throughput MoE Inference on a Single GPU with Module-Based Batching](https://arxiv.org/abs/2503.09716)
 
 ### Others
-[SoCC '24.11] [MoEsaic: Shared Mixture of Experts]
+
+[SoCC '24.11] [MoEsaic: Shared Mixture of Experts](https://dl.acm.org/doi/10.1145/3698038.3698521)
+
+
 
 
 ## Hardware-Level Optimization
@@ -464,7 +492,6 @@ Example: [Conference'year] [Paper Title]() [[Code]()]
 [ISSCC’24.2] [Space-Mate: A 303.5mW Real-Time Sparse Mixture-of-Experts-Based NeRF-SLAM Processor for Mobile Spatial Computing](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10454487)
 
 [ICCAD'23] [Edge-MoE: Memory-Efficient Multi-Task Vision Transformer Architecture with Task-Level Sparsity via Mixture-of-Experts](https://ieeexplore.ieee.org/abstract/document/10323651) [[Code](https://github.com/sharc-lab/Edge-MoE)]
-
 
 [NeurIPS'22] [M³ViT: Mixture-of-Experts Vision Transformer for Efficient Multi-task Learning with Model-Accelerator Co-design](https://proceedings.neurips.cc/paper_files/paper/2022/file/b653f34d576d1790481e3797cb740214-Paper-Conference.pdf) [[Code](https://github.com/VITA-Group/M3ViT)]
 
