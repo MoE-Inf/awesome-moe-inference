@@ -1,125 +1,77 @@
 # Awesome MoE LLM Inference System and Algorithm
-![Awesome](https://awesome.re/badge.svg)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/JustQJ/awesome-moe-inference/pulls)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)   [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/MoE-Inf/awesome-moe-inference/pulls)
 
 A curated list of awesome papers about optimizing the inference of MoE-based LLMs.
 
-Example: [Conference'year] [Paper Title]() [[Code]()]
-
-## Contents
+## Table of Contents
 
 
-## Survey
+- [Related Surveys](#related-surveys)
+- [SOTA Open Source MoE LLMs](#sota-open-source-moe-llms)
+- [Model-Level Optimizations](#model-level-optimizations)
+  - [Efficient Architecture Design](#efficient-architecture-design)
+    - [Attention Module](#attention-module)
+    - [MoE Module](#moe-module)
+  - [Model Compression](#model-compression)
+    - [Pruning](#pruning)
+    - [Quantization](#quantization)
+    - [Knowledge Distillation](#knowledge-distillation)
+    - [Low Rank Decomposition](#low-rank-decomposition)
+  - [Expert Skip/Adaptive Gating](#expert-skipadaptive-gating)
+  - [Merge Expert](#merge-expert)
+  - [Sparse to Dense](#sparse-to-dense)
+- [System-Level Optimization](#system-level-optimization)
+  - [Expert Parallel](#expert-parallel)
+  - [Expert Offloading](#expert-offloading)
+  - [Others](#others)
+- [Hardware-Level Optimization](#hardware-level-optimization)
+
+
+
+## Related Surveys
 
 [Preprints'24.8] [The Evolution of Mixture of Experts: A Survey from Basics to Breakthroughs](https://www.preprints.org/manuscript/202408.0583/v2)
 
-
-[Arxiv'24.8] [A Survey on Mixture of Experts](https://arxiv.org/abs/2407.06204) [[Code](https://github.com/withinmiaov/A-Survey-on-Mixture-of-Experts)]
+[Arxiv'24.8] [A Survey on Mixture of Experts](https://arxiv.org/abs/2407.06204) [[Github Repo](https://github.com/withinmiaov/A-Survey-on-Mixture-of-Experts)]
 
 [Arxiv'22] [A Review of Sparse Expert Models in Deep Learning](https://arxiv.org/abs/2209.01667)
-
-
 
 ## SOTA Open Source MoE LLMs
 
 |                                                             Reference                                                            | Para. | Experts | \#L | \#H | $d_{model}$ | $d_{ffn}$ | $d_{expert}$ | Affiliation |   Time  |
 |:--------------------------------------------------------------------------------------------------------------------------------:|:-----:|:-------:|:---:|:---:|:-----------:|:---------:|:------------:|:-----------:|:-------:|
-|                           [NLLB](https://huggingface.co/facebook/nllb-moe-54b)                           |  54B  |  2/64/0 |  24 |  16 |     1024    |    8192   |     8192     |   FaceBook  | 2022.07 |
-|                      [Qwen2-57B-A14B](https://huggingface.co/Qwen/Qwen2-57B-A14B)                      | 57.4B |  8/64/0 |  28 |  28 |     3584    |   18944   |     2560     |   Alibaba   | 2023.05 |
-|                  [Mixtral-8x7B](https://huggingface.co/mistralai/Mixtral-8x7B-v0.1)                 | 46.7B |  2/8/0  |  32 |  32 |     4096    |   14336   |     14336    |  Mistral AI | 2023.12 |
-|                       [OpenMoE](https://huggingface.co/OrionZheng/openmoe-base)                       |  34B  |  2/16/0 |  12 |  12 |     768     |    2048   |     2048     |  NUS et al. | 2023.12 |
-|              [DeepSeekMoE](https://huggingface.co/deepseek-ai/deepseek-moe-16b-base)              | 16.4B |  6/64/2 |  28 |  16 |     2048    |   10944   |     1408     | DeepSeek-AI | 2024.01 |
-|                         [Qwen1.5-MoE](https://huggingface.co/Qwen/Qwen1.5-MoE-A2.7B)                        | 14.3B |  4/60/0 |  24 |  16 |     2048    |    5632   |     1408     |   Alibaba   | 2024.02 |
-|                           [JetMoE](https://huggingface.co/jetmoe/jetmoe-8b)                           | 8.52B |  2/8/0  |  24 |  32 |     2048    |    5632   |     5632     |  MIT et al. | 2024.03 |
-|                          [Jamba](https://huggingface.co/ai21labs/Jamba-v0.1)                         | 51.6B |  2/16/0 |  32 |  32 |     4096    |   14336   |     14336    |   ai21labs  | 2024.03 |
-|                               [DBRX](https://huggingface.co/databricks/dbrx-base)                               |  132B |  4/16/0 |  40 |  48 |     6144    |   10752   |     10752    |  Databricks | 2024.03 |
-|                                [Grok-1](https://huggingface.co/xai-org/grok-1)                                |  314B |  2/8/0  |  64 |  48 |     6144    |    UNK    |      UNK     |     xAI     | 2024.03 |
-|                        [Arctic](https://huggingface.co/Snowflake/snowflake-arctic-base)                       |  482B | 2/128/0 |  35 |  56 |     7168    |    4864   |     4864     |  Snowflake  | 2024.04 |
-|                 [Mixtral-8x22B](https://huggingface.co/mistralai/Mixtral-8x22B-v0.1)                |  141B |  2/8/0  |  56 |  48 |     6144    |   16384   |     16384    |  Mistral AI | 2024.04 |
-|    [DeepSeek-V2](https://huggingface.co/deepseek-ai/DeepSeek-V2)   |  236B | 6/160/2 |  60 | 128 |     5120    |   12288   |     1536     | DeepSeek-AI | 2024.04 |
-|                     [Skywork-MoE](https://huggingface.co/Skywork/Skywork-MoE-Base)                    |  13B  |  2/16/0 |  52 |  36 |     4608    |   12288   |     12288    | Kunlun Tech | 2024.05 |
-|                           [Yuan2](https://huggingface.co/IEITYuan/Yuan2-M32-hf)                           |  40B  |  2/32/0 |  24 |  16 |     2048    |    8192   |     8192     |  IEIT-Yuan  | 2024.05 |
-|                         [LLaMA-MoE](https://github.com/pjlab-sys4nlp/llama-moe)                         |  6.7B |  2/8/0  |  32 |  32 |     4096    |   11008   |     11008    |  Zhu et al. | 2024.06 |
-|                     [OLMoE](https://huggingface.co/allenai/OLMoE-1B-7B-0924)                    | 6.92B |  8/64/0 |  16 |  16 |     2048    |    1024   |     1024     |   AllenAI   | 2024.07 |
-|                      [Phi-3](https://huggingface.co/microsoft/Phi-3.5-MoE-instruct)                     | 41.9B |  2/16/0 |  32 |  32 |     4096    |    6400   |     6400     |  MicroSoft  | 2024.08 |
-|                           [GRIN-MoE](https://huggingface.co/microsoft/GRIN-MoE)                          | 41.9B |  2/16/0 |  32 |  32 |     4096    |    6400   |     6400     |  MicroSoft  | 2024.09 |
-| [Hunyuan-Large](https://huggingface.co/tencent/Tencent-Hunyuan-Large/tree/main/Hunyuan-A52B-Pretrain) |  389B |  1/16/1 |  64 |  80 |     6400    |   18304   |     18304    |   Tencent   | 2024.11 |
-|    [DeepSeek-V3](huggingface.co/deepseek-ai/DeepSeek-V3-Base)| 671B | 8/256/1 | 61 | 128 | 7168 | 18432 | 2048 | DeepSeek-AI   | 2024.12 |
-|    [MiniMax-Text-01](https://huggingface.co/MiniMaxAI/MiniMax-Text-01)| 456B | 2/32/0 | 80 | 64 | 6144 | 9216 | 9216 | MiniMax-AI   | 2025.1 |
-|    [DeepSeek-R1](https://huggingface.co/deepseek-ai/DeepSeek-R1)| 671B | 8/256/1 | 61 | 128 | 7168 | 18432 | 2048 | DeepSeek-AI   | 2025.1 |
-| [Llama 4 Maverick](https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct) | 402B  | 1/128/0  |  48  |  40  |    5120     |   16384   |     8192     |    Meta     | 2025.4  |
-| [Qwen3-235B-A22B](https://huggingface.co/Qwen/Qwen3-235B-A22B-Thinking-2507) | 235B | 8/128/0 | 94 | 64 | 4096 | 12288 | 1536 | Alibaba | 2025.5 |
-| [ERNIE-4.5](https://huggingface.co/baidu/ERNIE-4.5-300B-A47B-PT) | 300B | 8/64/0 | 54 | 64 | 8192 | 28672 | 3584 | Baidu | 2025.6 |
-| [Hunyuan-A13B](https://huggingface.co/tencent/Hunyuan-A13B-Instruct) | 80B | 8/64/1 | 32 | 32 | 4096 | 24576 | 3072 | Tencent | 2025.6 |
-| [Kimi-K2](https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905) | 1043B | 8/384/1  |  61  |  64  |    7168     |   18432   |     2048     | MoonshotAI  | 2025.7  |
-| [GPT-oss](https://huggingface.co/openai/gpt-oss-120b) | 120B | 4/128/0 | 36 | 64 | 2880 | 11520 | 2880 | OpenAI | 2025.8 |
-| [GLM-4.5](https://huggingface.co/zai-org/GLM-4.5) | 355B | 8/160/1 | 92 | 96 | 5120 | 12288 | 1536 | Z.ai | 2025.8 |
-| [LongCat](https://huggingface.co/meituan-longcat/LongCat-Flash-Chat) | 560B | 12/512/0 | 28 | 64 | 6144 | 12288 | 2048 | Meituan | 2025.9 |
+|                           [NLLB](https://huggingface.co/facebook/nllb-moe-54b)          [[Tech Report](https://arxiv.org/abs/2207.04672)]                  |  54B  |  2/64/0 |  24 |  16 |     1024    |    8192   |     8192     |   FaceBook  | 2022.07 |
+|                      [Qwen2-57B-A14B](https://huggingface.co/Qwen/Qwen2-57B-A14B)         [[Tech Report](https://arxiv.org/abs/2407.10671)]              | 57.4B |  8/64/0 |  28 |  28 |     3584    |   18944   |     2560     |   Alibaba   | 2023.05 |
+|                  [Mixtral-8x7B](https://huggingface.co/mistralai/Mixtral-8x7B-v0.1)      [[Tech Report](https://arxiv.org/abs/2401.04088)]            | 46.7B |  2/8/0  |  32 |  32 |     4096    |   14336   |     14336    |  Mistral AI | 2023.12 |
+|                       [OpenMoE](https://huggingface.co/OrionZheng/openmoe-base)       [[Tech Report](https://arxiv.org/abs/2402.01739)]                 |  34B  |  2/16/0 |  12 |  12 |     768     |    2048   |     2048     |  NUS et al. | 2023.12 |
+|              [DeepSeekMoE](https://huggingface.co/deepseek-ai/deepseek-moe-16b-base)       [[Tech Report](https://arxiv.org/abs/2401.06066)]        | 16.4B |  6/64/2 |  28 |  16 |     2048    |   10944   |     1408     | DeepSeek-AI | 2024.01 |
+|                         [Qwen1.5-MoE](https://huggingface.co/Qwen/Qwen1.5-MoE-A2.7B)        [[Tech Report](https://qwenlm.github.io/blog/qwen-moe/)]                 | 14.3B |  4/60/0 |  24 |  16 |     2048    |    5632   |     1408     |   Alibaba   | 2024.02 |
+|                           [JetMoE](https://huggingface.co/jetmoe/jetmoe-8b)        [[Tech Report](https://arxiv.org/abs/2404.07413)]                    | 8.52B |  2/8/0  |  24 |  32 |     2048    |    5632   |     5632     |  MIT et al. | 2024.03 |
+|                          [Jamba](https://huggingface.co/ai21labs/Jamba-v0.1)             [[Tech Report](https://arxiv.org/abs/2403.19887)]             | 51.6B |  2/16/0 |  32 |  32 |     4096    |   14336   |     14336    |   ai21labs  | 2024.03 |
+|                               [DBRX](https://huggingface.co/databricks/dbrx-base)         [[Tech Report](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm)]                       |  132B |  4/16/0 |  40 |  48 |     6144    |   10752   |     10752    |  Databricks | 2024.03 |
+|                                [Grok-1](https://huggingface.co/xai-org/grok-1)     [[Tech Report](https://x.ai/blog/grok-os)]                            |  314B |  2/8/0  |  64 |  48 |     6144    |    UNK    |      UNK     |     xAI     | 2024.03 |
+|                        [Arctic](https://huggingface.co/Snowflake/snowflake-arctic-base)     [[Tech Report](https://www.snowflake.com/en/blog/arctic-open-efficient-foundation-language-models-snowflake/) ]                   |  482B | 2/128/0 |  35 |  56 |     7168    |    4864   |     4864     |  Snowflake  | 2024.04 |
+|                 [Mixtral-8x22B](https://huggingface.co/mistralai/Mixtral-8x22B-v0.1)       [[Tech Report](https://arxiv.org/abs/2401.04088)]          |  141B |  2/8/0  |  56 |  48 |     6144    |   16384   |     16384    |  Mistral AI | 2024.04 |
+|    [DeepSeek-V2](https://huggingface.co/deepseek-ai/DeepSeek-V2)   [[Tech Report](https://arxiv.org/abs/2405.04434)] |  236B | 6/160/2 |  60 | 128 |     5120    |   12288   |     1536     | DeepSeek-AI | 2024.04 |
+|                     [Skywork-MoE](https://huggingface.co/Skywork/Skywork-MoE-Base)      [[Tech Report](https://arxiv.org/abs/2406.06563)]               |  13B  |  2/16/0 |  52 |  36 |     4608    |   12288   |     12288    | Kunlun Tech | 2024.05 |
+|                           [Yuan2](https://huggingface.co/IEITYuan/Yuan2-M32-hf)      [[Tech Report](https://arxiv.org/abs/2405.17976)]                      |  40B  |  2/32/0 |  24 |  16 |     2048    |    8192   |     8192     |  IEIT-Yuan  | 2024.05 |
+|                         [LLaMA-MoE](https://github.com/pjlab-sys4nlp/llama-moe)   [[Tech Report](https://arxiv.org/abs/2406.16554)]                       |  6.7B |  2/8/0  |  32 |  32 |     4096    |   11008   |     11008    |  Zhu et al. | 2024.06 |
+|                     [OLMoE](https://huggingface.co/allenai/OLMoE-1B-7B-0924)  [[Tech Report](https://arxiv.org/abs/2409.02060)]                   | 6.92B |  8/64/0 |  16 |  16 |     2048    |    1024   |     1024     |   AllenAI   | 2024.07 |
+|                      [Phi-3](https://huggingface.co/microsoft/Phi-3.5-MoE-instruct)   [[Tech Report](https://arxiv.org/abs/2404.14219)]                   | 41.9B |  2/16/0 |  32 |  32 |     4096    |    6400   |     6400     |  MicroSoft  | 2024.08 |
+|                           [GRIN-MoE](https://huggingface.co/microsoft/GRIN-MoE)   [[Tech Report](https://arxiv.org/abs/2409.12136)]                        | 41.9B |  2/16/0 |  32 |  32 |     4096    |    6400   |     6400     |  MicroSoft  | 2024.09 |
+| [Hunyuan-Large](https://huggingface.co/tencent/Tencent-Hunyuan-Large/tree/main/Hunyuan-A52B-Pretrain) [[Tech Report](https://arxiv.org/abs/2411.02265)] |  389B |  1/16/1 |  64 |  80 |     6400    |   18304   |     18304    |   Tencent   | 2024.11 |
+|    [DeepSeek-V3](https://huggingface.co/deepseek-ai/DeepSeek-V3-Base)  [[Tech Report](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/DeepSeek_V3.pdf)]| 671B | 8/256/1 | 61 | 128 | 7168 | 18432 | 2048 | DeepSeek-AI   | 2024.12 |
+|    [MiniMax-Text-01](https://huggingface.co/MiniMaxAI/MiniMax-Text-01)  [[Tech Report](https://arxiv.org/pdf/2501.08313)]| 456B | 2/32/0 | 80 | 64 | 6144 | 9216 | 9216 | MiniMax-AI   | 2025.1 |
+|    [DeepSeek-R1](https://huggingface.co/deepseek-ai/DeepSeek-R1)  [[Tech Report](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf) ]| 671B | 8/256/1 | 61 | 128 | 7168 | 18432 | 2048 | DeepSeek-AI   | 2025.1 |
+| [Llama 4 Maverick](https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct) [[Tech Report](https://ai.meta.com/blog/llama-4-multimodal-intelligence/)] | 402B  | 1/128/0  |  48  |  40  |    5120     |   16384   |     8192     |    Meta     | 2025.4  |
+| [Qwen3-235B-A22B](https://huggingface.co/Qwen/Qwen3-235B-A22B-Thinking-2507) [[Tech Report](https://arxiv.org/abs/2505.09388)] | 235B | 8/128/0 | 94 | 64 | 4096 | 12288 | 1536 | Alibaba | 2025.5 |
+| [ERNIE-4.5](https://huggingface.co/baidu/ERNIE-4.5-300B-A47B-PT) [[Tech Report](https://ernie.baidu.com/blog/publication/ERNIE_Technical_Report.pdf)] | 300B | 8/64/0 | 54 | 64 | 8192 | 28672 | 3584 | Baidu | 2025.6 |
+| [Hunyuan-A13B](https://huggingface.co/tencent/Hunyuan-A13B-Instruct) [[Tech Report](https://github.com/Tencent-Hunyuan/Hunyuan-A13B/blob/main/report/Hunyuan_A13B_Technical_Report.pdf)] | 80B | 8/64/1 | 32 | 32 | 4096 | 24576 | 3072 | Tencent | 2025.6 |
+| [Kimi-K2](https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905) [[Tech Report](https://github.com/MoonshotAI/Kimi-K2/blob/main/tech_report.pdf)] | 1043B | 8/384/1  |  61  |  64  |    7168     |   18432   |     2048     | MoonshotAI  | 2025.7  |
+| [GPT-oss](https://huggingface.co/openai/gpt-oss-120b) [[Tech Report](https://arxiv.org/abs/2508.10925)] | 120B | 4/128/0 | 36 | 64 | 2880 | 11520 | 2880 | OpenAI | 2025.8 |
+| [GLM-4.5](https://huggingface.co/zai-org/GLM-4.5) [[Tech Report](https://arxiv.org/abs/2508.06471)] | 355B | 8/160/1 | 92 | 96 | 5120 | 12288 | 1536 | Z.ai | 2025.8 |
+| [LongCat](https://huggingface.co/meituan-longcat/LongCat-Flash-Chat)  [[Tech Report](https://arxiv.org/abs/2509.01322)] | 560B | 12/512/0 | 28 | 64 | 6144 | 12288 | 2048 | Meituan | 2025.9 |
 
-
-
-[Arxiv'25.9] [LongCat](https://arxiv.org/abs/2509.01322) [[Code](https://huggingface.co/meituan-longcat/LongCat-Flash-Chat)]
-
-[Arxiv'25.8] [GLM-4.5](https://arxiv.org/abs/2508.06471) [[Code](https://huggingface.co/zai-org/GLM-4.5)]
-
-[Arxiv'25.8] [GPT-oss](https://arxiv.org/abs/2508.10925) [[Code](https://huggingface.co/openai/gpt-oss-120b)]
-
-[Kimi-K2](https://github.com/MoonshotAI/Kimi-K2/blob/main/tech_report.pdf) [[Code](https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905)]
-
-[Hunyuan-A13B](https://github.com/Tencent-Hunyuan/Hunyuan-A13B/blob/main/report/Hunyuan_A13B_Technical_Report.pdf) [[Code](https://huggingface.co/tencent/Hunyuan-A13B-Instruct)]
-
-[ERNIE-4.5](https://ernie.baidu.com/blog/publication/ERNIE_Technical_Report.pdf) [[Code](https://huggingface.co/baidu/ERNIE-4.5-300B-A47B-PT))]
-
-[Arxiv'25.5] [Qwen3](https://arxiv.org/abs/2505.09388) [[Code](https://huggingface.co/Qwen/Qwen3-235B-A22B-Thinking-2507)]
-
-[DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf) [[Code](https://huggingface.co/deepseek-ai/DeepSeek-R1)]
-
-[Arxiv'25.1] [MiniMax-Text-01](https://arxiv.org/pdf/2501.08313) [[Code](https://huggingface.co/MiniMaxAI/MiniMax-Text-01)]
-
-[Arxiv'24.11] [Hunyuan-Large](https://arxiv.org/abs/2411.02265) [[Code](https://huggingface.co/tencent/Tencent-Hunyuan-Large)]
-
-[Arxiv'24.1] [Mixtral-8x7B](https://arxiv.org/abs/2401.04088) [[Code](https://huggingface.co/mistralai/Mixtral-8x7B-v0.1)]
-
-[Arxiv'24.1] [Mixtral-8x22B](https://arxiv.org/abs/2401.04088) [[Code](https://huggingface.co/mistralai/Mixtral-8x22B-v0.1)]
-
-
-[Arxiv'24.1] [DeepseekMoE](https://arxiv.org/abs/2401.06066) [[Code](https://huggingface.co/deepseek-ai/deepseek-moe-16b-base)]
-
-[Arxiv'24.6] [DeepSeek-V2](https://arxiv.org/abs/2405.04434) [[Code](https://huggingface.co/deepseek-ai/DeepSeek-V2)]
-
-
-[Arxiv'24.8] [PhiMoE](https://arxiv.org/abs/2404.14219) [[Code](https://huggingface.co/microsoft/Phi-3.5-MoE-instruct)]
-
-[Arxiv'24.9] [GRadient-INformed MoE](https://arxiv.org/abs/2409.12136) [[Code](https://huggingface.co/microsoft/GRIN-MoE)]
-
-
-[Arxiv'24.9] [Qwen2-57B-A14B](https://arxiv.org/abs/2407.10671) [[Code](https://huggingface.co/Qwen/Qwen2-57B-A14B)]
-
-[QwenBlog'24.3] [Qwen1.5-MoE](https://qwenlm.github.io/blog/qwen-moe/) [[Code](https://huggingface.co/Qwen/Qwen1.5-MoE-A2.7B)]
-
-[Arxiv'24.9] [OLMoE: Open Mixture-of-Experts Language Models](https://arxiv.org/abs/2409.02060) [[Code](https://github.com/allenai/OLMoE)]
-
-[Arxiv'24.3] [OpenMoE: An Early Effort on Open Mixture-of-Experts Language Models](https://arxiv.org/abs/2402.01739) [[Code](https://github.com/XueFuzhao/OpenMoE)]
-
-[Arxiv'24.6] [Skywork-MoE](https://arxiv.org/abs/2406.06563) [[Code](https://huggingface.co/Skywork/Skywork-MoE-Base)]
-
-[Arxiv'24.4] [JetMoE: Reaching Llama2 Performance with 0.1M Dollars](https://arxiv.org/abs/2404.07413)[[Code](https://github.com/myshell-ai/JetMoE)]
-
-[Arxiv'24.5] [Yuan 2.0-M32](https://arxiv.org/abs/2405.17976) [[Code](https://huggingface.co/IEITYuan/Yuan2-M32-hf)]
-
-[MosaicResearchBlog'24.3] [DBRX](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm) [[Code](https://huggingface.co/databricks/dbrx-base)]
-
-[SnowflakeBlog'24.4] [Arctic](https://www.snowflake.com/en/blog/arctic-open-efficient-foundation-language-models-snowflake/) [[Code](https://huggingface.co/Snowflake/snowflake-arctic-base)]
-
-[XAIBlog'24.3] [Grok-1](https://x.ai/blog/grok-os) [[Code](https://github.com/xai-org/grok-1)]
-
-[Arxiv'24.7] [Jamba](https://arxiv.org/abs/2403.19887) [[Code](https://huggingface.co/ai21labs/Jamba-v0.1)]
-
-[Arxiv'24.6] [LLaMA-MoE](https://arxiv.org/abs/2406.16554) [[Code](https://github.com/pjlab-sys4nlp/llama-moe)]
-
-[Arxiv'22] [NLLB-MOE](https://arxiv.org/abs/2207.04672) [[Code](https://huggingface.co/facebook/nllb-moe-54b)]
-
-[ICCV'21] [Swin-MoE](https://openaccess.thecvf.com/content/ICCV2021/papers/Liu_Swin_Transformer_Hierarchical_Vision_Transformer_Using_Shifted_Windows_ICCV_2021_paper.pdf) [[Code](https://github.com/microsoft/Swin-Transformer)]
 
 ## Model-Level Optimizations
 
