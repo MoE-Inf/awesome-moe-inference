@@ -178,6 +178,27 @@ A curated list of awesome papers about optimizing the inference of MoE-based LLM
 
 [EMNLP'22] [Who Says Elephants Can't Run: Bringing Large Scale MoE Models into Cloud Scale Production](https://arxiv.org/abs/2211.10017)
 
+[arXiv'24] [MoPEQ: Mixture of Mixed Precision Quantized Experts](https://arxiv.org/abs/2509.02512)
+
+[arXiv'25] [QuantMoE-Bench: Examining Post-Training Quantization for Mixture-of-Experts](https://arxiv.org/abs/2406.08155)
+
+[Findings of ACL'25] [Automated Fine-Grained Mixture-of-Experts Quantization](https://aclanthology.org/2025.findings-acl.1386/)
+
+[arXiv'25] [MxMoE: Mixed-precision Quantization for MoE with Accuracy and Performance Co-Design](https://arxiv.org/abs/2505.05799)
+
+[ICLR'26] [Efficient Quantization of Mixture-of-Experts with Theoretical Generalization Guarantees](https://dl.acm.org/doi/10.1145/3637528.3671873)
+
+[arXiv'25] [MoQa: Rethinking MoE Quantization with Multi-stage Data-model Distribution Awareness](https://arxiv.org/abs/2503.21135v1)
+
+[DATE'26] [DynaMo: Runtime Switchable Quantization for MoE with Cross-Dataset Adaptation](https://arxiv.org/abs/2503.21135)
+
+[arXiv'25] [MoEQuant: Enhancing Quantization for Mixture-of-Experts Large Language Models via Expert-Balanced Sampling](https://arxiv.org/abs/2505.03804)
+
+[arXiv'26] [EAQuant: Enhancing Post-Training Quantization for MoE Models via Expert-Aware Optimization](https://arxiv.org/abs/2506.13329)
+
+[arXiv'26] [Dynamic Expert Quantization for Scalable Mixture-of-Experts Inference (DynaExq)](https://arxiv.org/abs/2511.15015)
+
+[arXiv'25] [MiLo: Efficient Quantized MoE Inference with Mixture of Low-Rank Compensators](https://arxiv.org/abs/2504.02658)
 
 #### Knowledge Distillation
 
