@@ -101,6 +101,8 @@ A curated list of awesome papers about optimizing the inference of MoE-based LLM
 
 #### MoE Module
 
+[Arxiv'26.3] [TECS-L: Golden Zone MoE — Dense-to-MoE Conversion via Number-Theoretic Inhibition Ratio](https://github.com/need-singularity/TECS-L) [[GitHub](https://github.com/need-singularity/TECS-L)]
+
 [Arxiv'24.10] [MoE++: Accelerating Mixture-of-Experts Methods with Zero-Computation Experts](https://arxiv.org/abs/2410.07348) [[Code](https://github.com/SkyworkAI/MoE-plus-plus)]
 
 [Arxiv'24.2] [MoELoRA: Contrastive Learning Guided Mixture of Experts on Parameter-Efficient Fine-Tuning for Large Language Models](https://arxiv.org/abs/2402.12851)
